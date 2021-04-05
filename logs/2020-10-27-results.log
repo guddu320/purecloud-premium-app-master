@@ -1,0 +1,2571 @@
+2020-10-27 09:21:22 info: Email send success : [object Object]
+2020-10-27 09:23:35 info: Email send success : [object Object]
+2020-10-27 09:27:37 info: Email send success : [object Object]
+2020-10-27 09:33:38 info: Email send success : [object Object]
+2020-10-27 09:46:41 info: Email send success : [object Object]
+2020-10-27 09:56:03 info: Email send success : [object Object]
+2020-10-27 10:08:07 info: Email send success : [object Object]
+2020-10-27 10:31:17 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: 'PleHzxVe-AF9',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    '+17812081180,+16504203690,+16503322160,+16504805193,+16505297181,+16504022997,+16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-27 10:31:22 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1174,"messageTime":1301,"messageSize":2064,"response":"250 2.0.0 OK  1603755081 j1sm3052683pfa.96 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<59e6822c-a167-862d-2463-353e16ebbfad@cyara.com>"}
+2020-10-27 10:31:22 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1187,"messageTime":1498,"messageSize":2060,"response":"250 2.0.0 OK  1603755082 q23sm12995478pfg.192 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<a07e5ed1-1cd0-1b4d-66aa-20c6e71e9fb1@cyara.com>"}
+2020-10-27 10:41:25 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: '7l5i-TBMvd1X',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    '+17812081180,+16504203690,+16503322160,+16504805193,+16505297181,+16504022997,+16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-27 10:41:29 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1062,"messageTime":1331,"messageSize":20799,"response":"250 2.0.0 OK  1603755689 k14sm12168839pfu.163 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<5c4baaa8-27d7-c533-74e3-e8dd37b13faf@cyara.com>"}
+2020-10-27 10:41:29 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1075,"messageTime":1745,"messageSize":20795,"response":"250 2.0.0 OK  1603755689 l199sm13074128pfd.73 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<f3309aa1-449f-5d03-f294-060a82c4e981@cyara.com>"}
+2020-10-27 10:49:18 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: '6VjtDgv-fWWe',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    '+17812081180,+16504203690,+16503322160,+16504805193,+16505297181,+16504022997,+16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-27 10:49:22 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1283,"messageTime":1367,"messageSize":20795,"response":"250 2.0.0 OK  1603756162 hj11sm13180603pjb.55 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<7fa7b505-525c-7b33-16a3-2ca6690bfc3b@cyara.com>"}
+2020-10-27 10:49:23 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1293,"messageTime":1993,"messageSize":20799,"response":"250 2.0.0 OK  1603756162 o13sm13251575pjq.19 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<c1cee56a-0e01-dfad-5828-86fdba2f13ff@cyara.com>"}
+2020-10-27 10:50:38 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: '2GsheZ-twiBy',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    '+17812081180,+16504203690,+16503322160,+16504805193,+16505297181,+16504022997,+16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-27 10:50:43 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1050,"messageTime":1775,"messageSize":20794,"response":"250 2.0.0 OK  1603756243 h5sm13000425pfh.9 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<d263c19e-a7ba-85be-2149-a86bc925f7df@cyara.com>"}
+2020-10-27 10:50:43 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1050,"messageTime":2176,"messageSize":20798,"response":"250 2.0.0 OK  1603756243 u13sm8549471pfl.162 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<4e51c6b0-43cc-b458-228f-4b03921680ce@cyara.com>"}
+2020-10-27 10:52:20 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: 'dh0-5oaEigP4',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    '+17812081180,+16504203690,+16503322160,+16504805193,+16505297181,+16504022997,+16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-27 10:52:25 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1191,"messageTime":1420,"messageSize":20795,"response":"250 2.0.0 OK  1603756345 t15sm14708890pjy.33 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<9cf79dd6-76b9-d1e8-1574-5d11d0b4e7f2@cyara.com>"}
+2020-10-27 10:52:25 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1202,"messageTime":1912,"messageSize":20799,"response":"250 2.0.0 OK  1603756345 189sm2067110pfw.215 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<a4b19ef4-bfa4-b7de-78e4-dac920ff49bf@cyara.com>"}
+2020-10-27 10:54:33 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: '1s5o9FL-G5YP',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    '+17812081180,+16504203690,+16503322160,+16504805193,+16505297181,+16504022997,+16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-27 10:54:38 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1124,"messageTime":1283,"messageSize":20795,"response":"250 2.0.0 OK  1603756477 m13sm13459803pjr.30 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<03a2a3fb-f583-157a-e03f-d35001c7df5e@cyara.com>"}
+2020-10-27 10:54:38 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1117,"messageTime":1718,"messageSize":20799,"response":"250 2.0.0 OK  1603756478 r8sm13501227pgn.30 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<df9faac1-bb4f-a564-da15-25472cab6b1e@cyara.com>"}
+2020-10-27 10:58:24 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: '0-sb6j7sKrFC',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    '+17812081180,+16504203690,+16503322160,+16504805193,+16505297181,+16504022997,+16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-27 10:58:28 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1054,"messageTime":1266,"messageSize":20794,"response":"250 2.0.0 OK  1603756708 m11sm12928536pfa.69 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<4c47d210-e1a4-7224-019d-204e95f2ebdd@cyara.com>"}
+2020-10-27 10:58:28 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1039,"messageTime":1710,"messageSize":20798,"response":"250 2.0.0 OK  1603756708 m4sm11454657pgv.87 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<46a49f91-af15-dd90-a831-7b86a5eb188f@cyara.com>"}
+2020-10-27 10:59:02 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: 'cgEY-dQCHcY6',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    '+17812081180,+16504203690,+16503322160,+16504805193,+16505297181,+16504022997,+16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-27 10:59:06 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1045,"messageTime":1404,"messageSize":20794,"response":"250 2.0.0 OK  1603756746 u124sm13551074pfc.21 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<7f4bcfb2-7186-605c-c713-6600b69e2019@cyara.com>"}
+2020-10-27 10:59:07 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1066,"messageTime":1719,"messageSize":20798,"response":"250 2.0.0 OK  1603756747 g22sm13192833pfh.147 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<cf0f6d2d-58d5-e83c-712d-612a1f0fbe37@cyara.com>"}
+2020-10-27 11:00:53 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: 'R-hsYURNLYN8',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    '+17812081180,+16504203690,+16503322160,+16504805193,+16505297181,+16504022997,+16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-27 11:00:57 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1085,"messageTime":1570,"messageSize":20794,"response":"250 2.0.0 OK  1603756857 x123sm12864649pfb.212 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<cc78a074-20b4-a356-6ab2-8802e2980c26@cyara.com>"}
+2020-10-27 11:00:58 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1099,"messageTime":2126,"messageSize":20798,"response":"250 2.0.0 OK  1603756858 s18sm6692803pgh.60 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<4b005442-e522-bc73-d06a-4c7fbddd4dc9@cyara.com>"}
+2020-10-27 11:34:40 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: 'zlUy5w3C-mZ7',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    '+17812081180,+16504203690,+16503322160,+16504805193,+16505297181,+16504022997,+16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-27 11:34:44 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1124,"messageTime":1430,"messageSize":20803,"response":"250 2.0.0 OK  1603758884 t28sm4613729pfe.2 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<45bd2f33-0d5d-80d6-f7b2-0a2678c54f7c@cyara.com>"}
+2020-10-27 11:34:45 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1112,"messageTime":1921,"messageSize":20799,"response":"250 2.0.0 OK  1603758885 q8sm13449528pff.18 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<760f4602-6e82-c6a6-875e-e69284f985df@cyara.com>"}
+2020-10-27 11:37:11 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: 'jDPT-nT0Qbd3',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    '+17812081180,+16504203690,+16503322160,+16504805193,+16505297181,+16504022997,+16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-27 11:37:15 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1116,"messageTime":1242,"messageSize":20800,"response":"250 2.0.0 OK  1603759034 f66sm13037999pfa.59 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<a5ae2d49-9a38-0a28-eaa9-a1b7c7dafa34@cyara.com>"}
+2020-10-27 11:37:15 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1128,"messageTime":1639,"messageSize":20804,"response":"250 2.0.0 OK  1603759035 n19sm12873566pfu.24 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<a8b1d171-51de-f87a-f93d-78b638c79343@cyara.com>"}
+2020-10-27 11:39:20 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: 'fXSIhLq-oeR4',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    '+17812081180,+16504203690,+16503322160,+16504805193,+16505297181,+16504022997,+16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-27 11:39:24 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1109,"messageTime":1365,"messageSize":20804,"response":"250 2.0.0 OK  1603759164 x7sm8918898pfr.61 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<0d0a119b-3c39-86f1-9a6d-55f9c43350a3@cyara.com>"}
+2020-10-27 11:39:24 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1129,"messageTime":1681,"messageSize":20800,"response":"250 2.0.0 OK  1603759164 p62sm13713630pfb.180 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<37cd128a-14a1-e9df-ff9a-5f0f55429b2f@cyara.com>"}
+2020-10-27 11:41:45 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: 'geaw-dotLjw2',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    '+17812081180,+16504203690,+16503322160,+16504805193,+16505297181,+16504022997,+16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-27 11:41:49 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1024,"messageTime":1351,"messageSize":20814,"response":"250 2.0.0 OK  1603759309 j1sm3150891pfa.96 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<e54bde07-2b5d-971a-8620-3fc27ac4b395@cyara.com>"}
+2020-10-27 11:41:49 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1017,"messageTime":1662,"messageSize":20810,"response":"250 2.0.0 OK  1603759309 n25sm12050843pgd.67 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<f0a86828-c958-dcd3-6ace-7c18d2959d41@cyara.com>"}
+2020-10-27 12:04:10 info: Output: {
+  accountName: 'zzz7CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin7',
+      customerLastName: 'Nadarajan',
+      customerPassword: '2f3w-kB2ZwBB',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: 'gavin.sansom',
+  platformAdminPassword: 'EgmQ0tieTQ1aDMUd338X!!',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    '+17812081180,+16504203690,+16503322160,+16504805193,+16505297181,+16504022997,+16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  200
+checkForError: {"key":"d9b45295c35e411685b47b5556162988","token":"5kRU8mAnnkONSwGL7IahEoXLA8OHcROBbzHlooLwsQk=","apiKey":"ApiKey d9b45295c35e411685b47b5556162988:5kRU8mAnnkONSwGL7IahEoXLA8OHcROBbzHlooLwsQk=","status":200}
+statusCode:  200
+checkForError: {"accountId":30,"url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30","name":"Premium App - Donor","dateActivated":"2020-07-22T14:00:00Z","dateExpires":null,"country":"Australia","timeZone":"Pacific Standard Time","storageBackend":"AmazonS3","notificationEmails":[],"dateCreated":"2020-07-23T11:23:04.1510038Z","active":true,"identityProviderId":null,"settings":{"crawler":{"enabled":false,"useSpeechReplies":false},"email":{"maximumAps":20,"emailAccounts":[]},"sms":{"maximumAps":20,"whitelist":[],"smsNumbers":[]},"web":{"maximumAps":20,"whitelist":[]},"voice":{"recognitionLanguage":{"code":"ar-JO","description":"Arabic, Jordan"},"textToSpeechVoice":{"code":"Arabic, Laila","description":"Arabic-World Wide, Laila"},"recognitionPool":"","transcriptionSpeaker":{"name":"English (USA), en-US, v2","recognitionLanguage":{"code":"en-US","description":"English, United States"}},"mos":false,"outbound":false,"outboundWhitelist":[],"allowBlankCallingNumbers":false,"inboundBlacklist":[],"inboundWhitelist":[],"maximumAps":20,"majorConfidence":60,"minorConfidence":80,"majorMos":3.2,"minorMos":3.6,"preConnectRetryAttempts":null},"runLoadCampaignWithoutApproval":true,"runLoadCampaignWithoutBooking":false,"accountUsageReport":false,"servicesEnabled":false,"reportEmailDomainWhitelist":[]},"status":200}
+{
+  accountId: 30,
+  url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30',
+  name: 'Premium App - Donor',
+  dateActivated: '2020-07-22T14:00:00Z',
+  dateExpires: null,
+  country: 'Australia',
+  timeZone: 'Pacific Standard Time',
+  storageBackend: 'AmazonS3',
+  notificationEmails: [],
+  dateCreated: '2020-07-23T11:23:04.1510038Z',
+  active: true,
+  identityProviderId: null,
+  settings: {
+    crawler: { enabled: false, useSpeechReplies: false },
+    email: { maximumAps: 20, emailAccounts: [] },
+    sms: { maximumAps: 20, whitelist: [], smsNumbers: [] },
+    web: { maximumAps: 20, whitelist: [] },
+    voice: {
+      recognitionLanguage: [Object],
+      textToSpeechVoice: [Object],
+      recognitionPool: '',
+      transcriptionSpeaker: [Object],
+      mos: false,
+      outbound: false,
+      outboundWhitelist: [],
+      allowBlankCallingNumbers: false,
+      inboundBlacklist: [],
+      inboundWhitelist: [],
+      maximumAps: 20,
+      majorConfidence: 60,
+      minorConfidence: 80,
+      majorMos: 3.2,
+      minorMos: 3.6,
+      preConnectRetryAttempts: null
+    },
+    runLoadCampaignWithoutApproval: true,
+    runLoadCampaignWithoutBooking: false,
+    accountUsageReport: false,
+    servicesEnabled: false,
+    reportEmailDomainWhitelist: []
+  },
+  status: 200
+}
+Got Master Account Details
+2020-10-27T01:03:31.775Z
+2020-10-27T01:03:31.775Z
+27
+141
+2095-01-21T01:03:31.775Z
+2095-01-21T01:03:31.775Z
+accountDetails: {"name":"zzz7CyaraDemo (Genesys)","dateActivated":"2020-10-27T01:03:31.776Z","dateExpires":"2095-01-21T01:03:31.775Z","country":"Australia","timeZone":"Pacific Standard Time","storageBackend":"AmazonS3","notificationEmails":[],"active":true,"identityProviderId":null,"settings":{"crawler":{"enabled":false,"useSpeechReplies":false},"email":{"maximumAps":20,"emailAccounts":[]},"sms":{"maximumAps":20,"whitelist":[],"smsNumbers":[]},"web":{"maximumAps":20,"whitelist":[]},"voice":{"recognitionLanguage":{"code":"ar-JO","description":"Arabic, Jordan"},"textToSpeechVoice":{"code":"Arabic, Laila","description":"Arabic-World Wide, Laila"},"recognitionPool":"","transcriptionSpeaker":{"name":"English (USA), en-US, v2","recognitionLanguage":{"code":"en-US","description":"English, United States"}},"mos":false,"outbound":false,"outboundWhitelist":[],"allowBlankCallingNumbers":false,"inboundBlacklist":[],"inboundWhitelist":["+17812081180,+16504203690,+16503322160,+16504805193,+16505297181,+16504022997,+16504343993"],"maximumAps":20,"majorConfidence":60,"minorConfidence":80,"majorMos":3.2,"minorMos":3.6,"preConnectRetryAttempts":null},"runLoadCampaignWithoutApproval":true,"runLoadCampaignWithoutBooking":false,"accountUsageReport":false,"servicesEnabled":false,"reportEmailDomainWhitelist":[]},"status":200}
+statusCode:  200
+{"accountId":82,"url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/82","name":"zzz7CyaraDemo (Genesys)","dateActivated":"2020-10-27T01:03:31.776Z","dateExpires":"2095-01-21T01:03:31.775Z","country":"Australia","timeZone":"Pacific Standard Time","storageBackend":"AmazonS3","notificationEmails":[],"dateCreated":"2020-10-27T01:03:34.0167771Z","active":true,"identityProviderId":null,"settings":{"crawler":{"enabled":false,"useSpeechReplies":false},"email":{"maximumAps":20,"emailAccounts":[]},"sms":{"maximumAps":20,"whitelist":[],"smsNumbers":[]},"web":{"maximumAps":20,"whitelist":[]},"voice":{"recognitionLanguage":{"code":"ar-JO","description":"Arabic, Jordan"},"textToSpeechVoice":{"code":"Arabic, Laila","description":"Arabic-World Wide, Laila"},"recognitionPool":"","transcriptionSpeaker":{"name":"Arabic (Jordan), ar-JO, v2","recognitionLanguage":{"code":"ar-JO","description":"Arabic, Jordan"}},"mos":false,"outbound":false,"outboundWhitelist":[],"allowBlankCallingNumbers":false,"inboundBlacklist":[],"inboundWhitelist":["+17812081180","+16504203690","+16503322160","+16504805193","+16505297181","+16504022997","+16504343993"],"maximumAps":20,"majorConfidence":60,"minorConfidence":80,"majorMos":3.2,"minorMos":3.6,"preConnectRetryAttempts":null},"runLoadCampaignWithoutApproval":true,"runLoadCampaignWithoutBooking":false,"accountUsageReport":false,"servicesEnabled":false,"reportEmailDomainWhitelist":[]},"status":200}
+Checking account
+checkForError: {"accountId":82,"url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/82","name":"zzz7CyaraDemo (Genesys)","dateActivated":"2020-10-27T01:03:31.776Z","dateExpires":"2095-01-21T01:03:31.775Z","country":"Australia","timeZone":"Pacific Standard Time","storageBackend":"AmazonS3","notificationEmails":[],"dateCreated":"2020-10-27T01:03:34.0167771Z","active":true,"identityProviderId":null,"settings":{"crawler":{"enabled":false,"useSpeechReplies":false},"email":{"maximumAps":20,"emailAccounts":[]},"sms":{"maximumAps":20,"whitelist":[],"smsNumbers":[]},"web":{"maximumAps":20,"whitelist":[]},"voice":{"recognitionLanguage":{"code":"ar-JO","description":"Arabic, Jordan"},"textToSpeechVoice":{"code":"Arabic, Laila","description":"Arabic-World Wide, Laila"},"recognitionPool":"","transcriptionSpeaker":{"name":"Arabic (Jordan), ar-JO, v2","recognitionLanguage":{"code":"ar-JO","description":"Arabic, Jordan"}},"mos":false,"outbound":false,"outboundWhitelist":[],"allowBlankCallingNumbers":false,"inboundBlacklist":[],"inboundWhitelist":["+17812081180","+16504203690","+16503322160","+16504805193","+16505297181","+16504022997","+16504343993"],"maximumAps":20,"majorConfidence":60,"minorConfidence":80,"majorMos":3.2,"minorMos":3.6,"preConnectRetryAttempts":null},"runLoadCampaignWithoutApproval":true,"runLoadCampaignWithoutBooking":false,"accountUsageReport":false,"servicesEnabled":false,"reportEmailDomainWhitelist":[]},"status":200}
+Generated duplicate shell account
+{
+  accountId: 82,
+  url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/82',
+  name: 'zzz7CyaraDemo (Genesys)',
+  dateActivated: '2020-10-27T01:03:31.776Z',
+  dateExpires: '2095-01-21T01:03:31.775Z',
+  country: 'Australia',
+  timeZone: 'Pacific Standard Time',
+  storageBackend: 'AmazonS3',
+  notificationEmails: [],
+  dateCreated: '2020-10-27T01:03:34.0167771Z',
+  active: true,
+  identityProviderId: null,
+  settings: {
+    crawler: { enabled: false, useSpeechReplies: false },
+    email: { maximumAps: 20, emailAccounts: [] },
+    sms: { maximumAps: 20, whitelist: [], smsNumbers: [] },
+    web: { maximumAps: 20, whitelist: [] },
+    voice: {
+      recognitionLanguage: [Object],
+      textToSpeechVoice: [Object],
+      recognitionPool: '',
+      transcriptionSpeaker: [Object],
+      mos: false,
+      outbound: false,
+      outboundWhitelist: [],
+      allowBlankCallingNumbers: false,
+      inboundBlacklist: [],
+      inboundWhitelist: [Array],
+      maximumAps: 20,
+      majorConfidence: 60,
+      minorConfidence: 80,
+      majorMos: 3.2,
+      minorMos: 3.6,
+      preConnectRetryAttempts: null
+    },
+    runLoadCampaignWithoutApproval: true,
+    runLoadCampaignWithoutBooking: false,
+    accountUsageReport: false,
+    servicesEnabled: false,
+    reportEmailDomainWhitelist: []
+  },
+  status: 200
+}
+new accountID: 82
+Start getting all plans
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans?pagesize=1000&pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans?pagesize=1000&pageno=1","nextPage":null,"previousPage":null,"results":[{"channel":"Voice","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/82","planId":82,"accountId":30,"type":"Pulse","name":"Premium App Pulse","startDate":"2019-05-01T17:49:00Z","endDate":"2020-08-02T04:24:00Z"},{"channel":"Voice","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/83","planId":83,"accountId":30,"type":"Velocity","name":"Premium App Velocity","startDate":"2020-07-02T04:25:00Z","endDate":"2020-08-02T04:25:00Z"}],"totalResults":2,"returnedResults":2,"status":200}
+Retrieved plans from master account
+{
+  firstPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans?pagesize=1000&pageno=1',
+  lastPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans?pagesize=1000&pageno=1',
+  nextPage: null,
+  previousPage: null,
+  results: [
+    {
+      channel: 'Voice',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/82',
+      planId: 82,
+      accountId: 30,
+      type: 'Pulse',
+      name: 'Premium App Pulse',
+      startDate: '2019-05-01T17:49:00Z',
+      endDate: '2020-08-02T04:24:00Z'
+    },
+    {
+      channel: 'Voice',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/83',
+      planId: 83,
+      accountId: 30,
+      type: 'Velocity',
+      name: 'Premium App Velocity',
+      startDate: '2020-07-02T04:25:00Z',
+      endDate: '2020-08-02T04:25:00Z'
+    }
+  ],
+  totalResults: 2,
+  returnedResults: 2,
+  status: 200
+}
+{
+  channel: 'Voice',
+  url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/82',
+  planId: 82,
+  accountId: 30,
+  type: 'Pulse',
+  name: 'Premium App Pulse',
+  startDate: '2019-05-01T17:49:00Z',
+  endDate: '2020-08-02T04:24:00Z'
+}
+Retrieving plan from master account
+statusCode:  200
+checkForError: {"subType":"Speech","minimumFrequency":1,"settings":{"premium":false,"inCountryEnabled":true,"maximumAps":20},"channel":"Voice","note":null,"concurrency":5,"notificationEmails":[],"planId":82,"accountId":30,"type":"Pulse","name":"Premium App Pulse","startDate":"2019-05-01T17:49:00Z","endDate":"2020-08-02T04:24:00Z","status":200}
+{
+  subType: 'Speech',
+  minimumFrequency: 1,
+  settings: { premium: false, inCountryEnabled: true, maximumAps: 20 },
+  channel: 'Voice',
+  note: null,
+  concurrency: 5,
+  notificationEmails: [],
+  planId: 82,
+  accountId: 30,
+  type: 'Pulse',
+  name: 'Premium App Pulse',
+  startDate: '2019-05-01T17:49:00Z',
+  endDate: '2020-08-02T04:24:00Z',
+  status: 200
+}
+2020-10-27T01:03:38.403Z
+27
+14
+2028-03-06T01:03:38.403Z
+Creating plan on new account
+{ 'accountId': '82', 'name': 'Premium App Pulse', 'subType': 'Speech', 'note': '07eb24ba-2b64-42d8-a4df-2e419dc97304
+TestingAppId', 'channel': 'Voice', 'type': 'Pulse', 'startDate': '2019-05-01T17:49:00Z', 'endDate': '2028-03-06T01:03:38.403Z', 'concurrency': 5, 'settings': {"premium":false,"inCountryEnabled":true,"maximumAps":20}, 'notificationEmails': [], 'minimumFrequency': 1 }
+statusCode:  200
+checkForError: {"subType":"Speech","minimumFrequency":1,"settings":{"premium":false,"inCountryEnabled":true,"maximumAps":20},"channel":"Voice","note":"07eb24ba-2b64-42d8-a4df-2e419dc97304\nTestingAppId","concurrency":5,"notificationEmails":[],"planId":194,"accountId":82,"type":"Pulse","name":"Premium App Pulse","startDate":"2019-05-01T17:49:00Z","endDate":"2028-03-06T01:03:38.403Z","status":200}
+{
+  subType: 'Speech',
+  minimumFrequency: 1,
+  settings: { premium: false, inCountryEnabled: true, maximumAps: 20 },
+  channel: 'Voice',
+  note: '07eb24ba-2b64-42d8-a4df-2e419dc97304\nTestingAppId',
+  concurrency: 5,
+  notificationEmails: [],
+  planId: 194,
+  accountId: 82,
+  type: 'Pulse',
+  name: 'Premium App Pulse',
+  startDate: '2019-05-01T17:49:00Z',
+  endDate: '2028-03-06T01:03:38.403Z',
+  status: 200
+}
+{
+  channel: 'Voice',
+  url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/83',
+  planId: 83,
+  accountId: 30,
+  type: 'Velocity',
+  name: 'Premium App Velocity',
+  startDate: '2020-07-02T04:25:00Z',
+  endDate: '2020-08-02T04:25:00Z'
+}
+Retrieving plan from master account
+statusCode:  200
+checkForError: {"subType":"Speech","settings":{"inCountryEnabled":false,"maximumAps":20},"channel":"Voice","note":null,"concurrency":5,"notificationEmails":[],"planId":83,"accountId":30,"type":"Velocity","name":"Premium App Velocity","startDate":"2020-07-02T04:25:00Z","endDate":"2020-08-02T04:25:00Z","status":200}
+{
+  subType: 'Speech',
+  settings: { inCountryEnabled: false, maximumAps: 20 },
+  channel: 'Voice',
+  note: null,
+  concurrency: 5,
+  notificationEmails: [],
+  planId: 83,
+  accountId: 30,
+  type: 'Velocity',
+  name: 'Premium App Velocity',
+  startDate: '2020-07-02T04:25:00Z',
+  endDate: '2020-08-02T04:25:00Z',
+  status: 200
+}
+2020-10-27T01:03:42.756Z
+27
+14
+2028-03-06T01:03:42.756Z
+Creating plan on new account
+{ 'accountId': '82', 'name': 'Premium App Velocity', 'subType': 'Speech', 'note': '07eb24ba-2b64-42d8-a4df-2e419dc97304
+TestingAppId', 'channel': 'Voice', 'type': 'Velocity', 'startDate': '2020-07-02T04:25:00Z', 'endDate': '2028-03-06T01:03:42.756Z', 'concurrency': 5, 'settings': {"inCountryEnabled":false,"maximumAps":20}, 'notificationEmails': [] }
+statusCode:  200
+checkForError: {"subType":"Speech","settings":{"inCountryEnabled":false,"maximumAps":20},"channel":"Voice","note":"07eb24ba-2b64-42d8-a4df-2e419dc97304\nTestingAppId","concurrency":5,"notificationEmails":[],"planId":195,"accountId":82,"type":"Velocity","name":"Premium App Velocity","startDate":"2020-07-02T04:25:00Z","endDate":"2028-03-06T01:03:42.756Z","status":200}
+{
+  subType: 'Speech',
+  settings: { inCountryEnabled: false, maximumAps: 20 },
+  channel: 'Voice',
+  note: '07eb24ba-2b64-42d8-a4df-2e419dc97304\nTestingAppId',
+  concurrency: 5,
+  notificationEmails: [],
+  planId: 195,
+  accountId: 82,
+  type: 'Velocity',
+  name: 'Premium App Velocity',
+  startDate: '2020-07-02T04:25:00Z',
+  endDate: '2028-03-06T01:03:42.756Z',
+  status: 200
+}
+{
+  firstPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans?pagesize=1000&pageno=1',
+  lastPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans?pagesize=1000&pageno=1',
+  nextPage: null,
+  previousPage: null,
+  results: [
+    {
+      channel: 'Voice',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/82',
+      planId: 82,
+      accountId: 30,
+      type: 'Pulse',
+      name: 'Premium App Pulse',
+      startDate: '2019-05-01T17:49:00Z',
+      endDate: '2020-08-02T04:24:00Z'
+    },
+    {
+      channel: 'Voice',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/83',
+      planId: 83,
+      accountId: 30,
+      type: 'Velocity',
+      name: 'Premium App Velocity',
+      startDate: '2020-07-02T04:25:00Z',
+      endDate: '2020-08-02T04:25:00Z'
+    }
+  ],
+  totalResults: 2,
+  returnedResults: 2,
+  status: 200
+}
+List master campaigns
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/campaigns?channel=Voice&pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/campaigns?channel=Voice&pageno=1","nextPage":null,"previousPage":null,"results":[{"active":false,"campaignId":198,"channel":"Voice","name":"Donor campaign","lastRunDate":null,"requestedRunDate":"2020-07-23T11:46:00Z","planType":"Pulse","scheduledRunDate":"2020-07-23T11:46:00Z","status":"None","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/campaigns/198"}],"totalResults":1,"returnedResults":1,"status":200}
+List shell campaigns
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/82/campaigns?channel=Voice&pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/82/campaigns?channel=Voice&pageno=0","nextPage":null,"previousPage":null,"results":[],"totalResults":0,"returnedResults":0,"status":200}
+{
+  firstPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/campaigns?channel=Voice&pageno=1',
+  lastPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/campaigns?channel=Voice&pageno=1',
+  nextPage: null,
+  previousPage: null,
+  results: [
+    {
+      active: false,
+      campaignId: 198,
+      channel: 'Voice',
+      name: 'Donor campaign',
+      lastRunDate: null,
+      requestedRunDate: '2020-07-23T11:46:00Z',
+      planType: 'Pulse',
+      scheduledRunDate: '2020-07-23T11:46:00Z',
+      status: 'None',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/campaigns/198'
+    }
+  ],
+  totalResults: 1,
+  returnedResults: 1,
+  status: 200
+}
+{
+  active: false,
+  campaignId: 198,
+  channel: 'Voice',
+  name: 'Donor campaign',
+  lastRunDate: null,
+  requestedRunDate: '2020-07-23T11:46:00Z',
+  planType: 'Pulse',
+  scheduledRunDate: '2020-07-23T11:46:00Z',
+  status: 'None',
+  url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/campaigns/198'
+}
+Getting campaign from master account
+statusCode:  200
+checkForError: {"concurrency":5,"maximumAps":20,"frequency":"1.00:00:00","testCaseDistributionProfile":"RoundRobin","active":false,"campaignId":198,"channel":"Voice","description":null,"name":"Donor campaign","lastRunDate":null,"requestedRunDate":"2020-07-23T11:46:00Z","scheduledRunDate":"2020-07-23T11:46:00Z","status":200,"plan":{"planId":82,"type":"Pulse","name":"Premium App Pulse","startDate":"2019-05-01T17:49:00Z","endDate":"2020-08-02T04:24:00Z"},"testCases":[{"calledNumber":"55555555555","probability":100,"testCaseId":52423,"name":"Donor Test Case","folderPath":"\\","channel":"Voice","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/testcases/52423"}],"schedules":[],"schedulePauses":[]}
+{
+  concurrency: 5,
+  maximumAps: 20,
+  frequency: '1.00:00:00',
+  testCaseDistributionProfile: 'RoundRobin',
+  active: false,
+  campaignId: 198,
+  channel: 'Voice',
+  description: null,
+  name: 'Donor campaign',
+  lastRunDate: null,
+  requestedRunDate: '2020-07-23T11:46:00Z',
+  scheduledRunDate: '2020-07-23T11:46:00Z',
+  status: 200,
+  plan: {
+    planId: 82,
+    type: 'Pulse',
+    name: 'Premium App Pulse',
+    startDate: '2019-05-01T17:49:00Z',
+    endDate: '2020-08-02T04:24:00Z'
+  },
+  testCases: [
+    {
+      calledNumber: '55555555555',
+      probability: 100,
+      testCaseId: 52423,
+      name: 'Donor Test Case',
+      folderPath: '\\',
+      channel: 'Voice',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/testcases/52423'
+    }
+  ],
+  schedules: [],
+  schedulePauses: []
+}
+{
+  calledNumber: '55555555555',
+  probability: 100,
+  testCaseId: 52423,
+  name: 'Donor Test Case',
+  folderPath: '\\',
+  channel: 'Voice',
+  url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/testcases/52423'
+}
+getting TCXML from master account for campaign
+statusCode:  200
+checkForError: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<TestSpecification xmlns=\"TestSpecification.xsd\">\r\n  <TestCases>\r\n    <TestCase>\r\n      <TestCaseName>Donor Test Case</TestCaseName>\r\n      <MediaType>Voice</MediaType>\r\n      <FolderPath />\r\n      <Description />\r\n      <PhoneNo>55555555555</PhoneNo>\r\n      <PhoneNoLocal>false</PhoneNoLocal>\r\n      <Notes />\r\n      <AlertMsg />\r\n      <PreConnectAudio />\r\n      <AlertFrequency>Once</AlertFrequency>\r\n      <MinorThresholdCriticalCount>3</MinorThresholdCriticalCount>\r\n      <MajorThresholdCriticalCount>1</MajorThresholdCriticalCount>\r\n      <Steps>\r\n        <RingingStep>\r\n          <MinPauseTime>0</MinPauseTime>\r\n          <MaxPauseTime>0</MaxPauseTime>\r\n          <MinorThresholdTime>5</MinorThresholdTime>\r\n          <MajorThresholdTime>10</MajorThresholdTime>\r\n        </RingingStep>\r\n        <CallSteps>\r\n          <Step>\r\n            <StepNo>1</StepNo>\r\n            <Description>Hold call</Description>\r\n            <ExpectedText>{Ignore}</ExpectedText>\r\n            <ExpectedExchangeType>MPSR</ExpectedExchangeType>\r\n            <ReplyText />\r\n            <ReplyExchangeType>DTMF</ReplyExchangeType>\r\n            <MinorThresholdTime>3</MinorThresholdTime>\r\n            <MajorThresholdTime>5</MajorThresholdTime>\r\n            <MinPauseTime>0</MinPauseTime>\r\n            <MaxPauseTime>0</MaxPauseTime>\r\n            <MajorConfidenceLevel>60</MajorConfidenceLevel>\r\n            <MinorConfidenceLevel>80</MinorConfidenceLevel>\r\n            <PostSpeechSilenceTimeout>30</PostSpeechSilenceTimeout>\r\n            <BlockPath />\r\n          </Step>\r\n        </CallSteps>\r\n      </Steps>\r\n    </TestCase>\r\n  </TestCases>\r\n</TestSpecification>"
+Importing TCXML into new account for campaign
+statusCode:  200
+checkForError: {"results":[{"xPath":"/TestCases/TestCase[001]","name":"Donor Test Case","folderPath":"\\","id":66294,"information":[{"xPath":"/TestCases/TestCase[001]","result":"Test Case Number 1: Donor Test Case","message":{"code":"XMLImport_TestCaseNumber","args":["1","Donor Test Case"]}},{"xPath":"/TestCases/TestCase[001]","result":"Folder path: \\","message":{"code":"XMLImport_FolderPath","args":["\\"]}},{"xPath":"/TestCases/TestCase[001]","result":"Starting TestCase validation...","message":{"code":"XMLImport_ValidatingTestCase","args":null}},{"xPath":"/TestCases/TestCase[001]","result":"Starting steps data validation","message":{"code":"XMLImport_StartStepValidation","args":null}},{"xPath":"/TestCases/TestCase[001]","result":"Saving Test Case 'Donor Test Case' to storage.","message":{"code":"XMLImport_SavingTestCaseToStorage","args":["Donor Test Case"]}},{"xPath":"/TestCases/TestCase[001]/Steps/CallSteps/Step[001]","result":"Call step StepNo 1","message":{"code":"XMLImport_CallStepStepNumber","args":["1"]}},{"xPath":"/TestCases/TestCase[001]/Steps/CallSteps/Step[001]","result":"Validating step at position 1","message":{"code":"XMLImport_ValidatingStepNo","args":["1"]}},{"xPath":"/TestCases/TestCase[001]/Steps/RingingStep","result":"Validating step at position 0","message":{"code":"XMLImport_ValidatingStepNo","args":["0"]}}],"error":[]}],"status":200}
+{
+  results: [
+    {
+      xPath: '/TestCases/TestCase[001]',
+      name: 'Donor Test Case',
+      folderPath: '\\',
+      id: 66294,
+      information: [Array],
+      error: []
+    }
+  ],
+  status: 200
+}
+{
+  concurrency: 5,
+  maximumAps: 20,
+  frequency: '1.00:00:00',
+  testCaseDistributionProfile: 'RoundRobin',
+  active: false,
+  campaignId: 198,
+  channel: 'Voice',
+  description: null,
+  name: 'Donor campaign',
+  lastRunDate: null,
+  requestedRunDate: '2020-07-23T11:46:00Z',
+  scheduledRunDate: '2020-07-23T11:46:00Z',
+  status: 200,
+  plan: {
+    planId: 194,
+    type: 'Pulse',
+    name: 'Premium App Pulse',
+    startDate: '2019-05-01T17:49:00Z',
+    endDate: '2020-08-02T04:24:00Z'
+  },
+  testCases: [
+    {
+      calledNumber: '55555555555',
+      probability: 100,
+      testCaseId: 66294,
+      name: 'Donor Test Case',
+      folderPath: '\\',
+      channel: 'Voice',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/testcases/52423'
+    }
+  ],
+  schedules: [],
+  schedulePauses: []
+}
+creating campaign on new account
+statusCode:  200
+checkForError: {"concurrency":5,"maximumAps":20,"frequency":"1.00:00:00","testCaseDistributionProfile":"RoundRobin","active":false,"campaignId":317,"channel":"Voice","description":null,"name":"Donor campaign","lastRunDate":null,"requestedRunDate":"2020-07-23T11:46:00Z","scheduledRunDate":"2020-07-23T11:46:00Z","status":200,"plan":{"planId":194,"type":"Pulse","name":"Premium App Pulse","startDate":"2019-05-01T17:49:00Z","endDate":"2028-03-06T01:03:38.403Z"},"testCases":[{"calledNumber":"55555555555","probability":100,"testCaseId":66294,"name":"Donor Test Case","folderPath":"\\","channel":"Voice","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/82/testcases/66294"}],"schedules":[],"schedulePauses":[]}
+{
+  concurrency: 5,
+  maximumAps: 20,
+  frequency: '1.00:00:00',
+  testCaseDistributionProfile: 'RoundRobin',
+  active: false,
+  campaignId: 317,
+  channel: 'Voice',
+  description: null,
+  name: 'Donor campaign',
+  lastRunDate: null,
+  requestedRunDate: '2020-07-23T11:46:00Z',
+  scheduledRunDate: '2020-07-23T11:46:00Z',
+  status: 200,
+  plan: {
+    planId: 194,
+    type: 'Pulse',
+    name: 'Premium App Pulse',
+    startDate: '2019-05-01T17:49:00Z',
+    endDate: '2028-03-06T01:03:38.403Z'
+  },
+  testCases: [
+    {
+      calledNumber: '55555555555',
+      probability: 100,
+      testCaseId: 66294,
+      name: 'Donor Test Case',
+      folderPath: '\\',
+      channel: 'Voice',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/82/testcases/66294'
+    }
+  ],
+  schedules: [],
+  schedulePauses: []
+}
+listing test cases on master account
+statusCode:  200
+{"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/testcases?pagesize=1000&pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/testcases?pagesize=1000&pageno=1","nextPage":null,"previousPage":null,"results":[{"accountId":30,"testCaseId":52423,"direction":"Inbound","channel":"Voice","name":"Donor Test Case","folderPath":"\\","stepCount":2,"lastModified":"2020-07-23T11:46:11.8170805Z","destination":"55555555555","linkedCampaignCount":1}],"totalResults":1,"returnedResults":1,"status":200}
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/testcases?pagesize=1000&pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/testcases?pagesize=1000&pageno=1","nextPage":null,"previousPage":null,"results":[{"accountId":30,"testCaseId":52423,"direction":"Inbound","channel":"Voice","name":"Donor Test Case","folderPath":"\\","stepCount":2,"lastModified":"2020-07-23T11:46:11.8170805Z","destination":"55555555555","linkedCampaignCount":1}],"totalResults":1,"returnedResults":1,"status":200}
+listing CX Models on master account
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/models?pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/models?pageno=0","nextPage":null,"previousPage":null,"results":[],"totalResults":0,"returnedResults":0,"status":200}
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/82/models?pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/82/models?pageno=0","nextPage":null,"previousPage":null,"results":[],"totalResults":0,"returnedResults":0,"status":200}
+Creating user
+statusCode:  200
+checkForError: {"userId":"37823080-c174-4827-bdeb-271d82858d3d","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/users/37823080-c174-4827-bdeb-271d82858d3d","locked":false,"lockoutEnabled":true,"lockoutEndDate":null,"dateCreated":"2020-10-27T01:04:01.8355985Z","lastLoginDate":null,"defaultAccount":0,"username":"godwin7.nadarajan.cyarademo","firstname":"Godwin7","lastname":"Nadarajan","telephone":"1","mobile":null,"email":"godwin.nadarajan@cyara.com","active":true,"platformNotifications":false,"fullScreen":true,"roles":["Admin","DashboardAdmin","UserAdmin","CCMAdmin"],"loginProviders":["Identity"],"status":200}
+Created user
+{
+  userId: '37823080-c174-4827-bdeb-271d82858d3d',
+  url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/users/37823080-c174-4827-bdeb-271d82858d3d',
+  locked: false,
+  lockoutEnabled: true,
+  lockoutEndDate: null,
+  dateCreated: '2020-10-27T01:04:01.8355985Z',
+  lastLoginDate: null,
+  defaultAccount: 0,
+  username: 'godwin7.nadarajan.cyarademo',
+  firstname: 'Godwin7',
+  lastname: 'Nadarajan',
+  telephone: '1',
+  mobile: null,
+  email: 'godwin.nadarajan@cyara.com',
+  active: true,
+  platformNotifications: false,
+  fullScreen: true,
+  roles: [ 'Admin', 'DashboardAdmin', 'UserAdmin', 'CCMAdmin' ],
+  loginProviders: [ 'Identity' ],
+  status: 200
+}
+Attaching user
+statusCode:  200
+checkForError: "Ok"
+Attached user
+Ok
+Listing user's accounts
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/users/37823080-c174-4827-bdeb-271d82858d3d/accounts?pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/users/37823080-c174-4827-bdeb-271d82858d3d/accounts?pageno=1","nextPage":null,"previousPage":null,"results":[{"accountId":82,"name":"zzz7CyaraDemo (Genesys)","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/82"}],"totalResults":1,"returnedResults":1,"status":200}
+Got user accounts
+{
+  firstPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/users/37823080-c174-4827-bdeb-271d82858d3d/accounts?pageno=1',
+  lastPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/users/37823080-c174-4827-bdeb-271d82858d3d/accounts?pageno=1',
+  nextPage: null,
+  previousPage: null,
+  results: [
+    {
+      accountId: 82,
+      name: 'zzz7CyaraDemo (Genesys)',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/82'
+    }
+  ],
+  totalResults: 1,
+  returnedResults: 1,
+  status: 200
+}
+This user is ready.
+finalResponse:
+[33m{"message":"Account duplicated. It is ready at https://sit.cyaraportal.com/cyarawebportal/82/home","status":200}[0m
+
+
+Error: 
+2020-10-27 12:04:12 info: Email Failed!
+{"code":"EENVELOPE","command":"API"}
+2020-10-27 12:04:15 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1182,"messageTime":1725,"messageSize":81916,"response":"250 2.0.0 OK  1603760655 h2sm9379013pjz.22 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<a222a73b-8f47-3832-598f-a4e9aa83b097@cyara.com>"}
+2020-10-27 12:11:20 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: '0l6-ya6w0aiH',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    '+17812081180,+16504203690,+16503322160,+16504805193,+16505297181,+16504022997,+16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-27 12:11:24 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1191,"messageTime":1512,"messageSize":20841,"response":"250 2.0.0 OK  1603761084 l18sm13477164pfd.210 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<8a6a0947-f83f-fd9d-7755-c7c697635a43@cyara.com>"}
+2020-10-27 12:11:24 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1180,"messageTime":1965,"messageSize":20837,"response":"250 2.0.0 OK  1603761084 j138sm13249930pfd.19 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<1eeb3c62-8227-082c-f31a-08c7dba6c3e8@cyara.com>"}
+2020-10-27 12:15:39 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin8',
+      customerLastName: 'Nadarajan',
+      customerPassword: 'yz-gg90lR317',
+      customerPhone: '1',
+      customerCompany: 'zzz8CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: 'gavin.sansom',
+  platformAdminPassword: 'EgmQ0tieTQ1aDMUd338X!!',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    '+17812081180,+16504203690,+16503322160,+16504805193,+16505297181,+16504022997,+16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  200
+checkForError: {"key":"d9b45295c35e411685b47b5556162988","token":"C2q8T1+eRRKlSo/HVKITTQ3vYq+iZ3CtNDt9rfwuF14=","apiKey":"ApiKey d9b45295c35e411685b47b5556162988:C2q8T1+eRRKlSo/HVKITTQ3vYq+iZ3CtNDt9rfwuF14=","status":200}
+statusCode:  200
+checkForError: {"accountId":30,"url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30","name":"Premium App - Donor","dateActivated":"2020-07-22T14:00:00Z","dateExpires":null,"country":"Australia","timeZone":"Pacific Standard Time","storageBackend":"AmazonS3","notificationEmails":[],"dateCreated":"2020-07-23T11:23:04.1510038Z","active":true,"identityProviderId":null,"settings":{"crawler":{"enabled":false,"useSpeechReplies":false},"email":{"maximumAps":20,"emailAccounts":[]},"sms":{"maximumAps":20,"whitelist":[],"smsNumbers":[]},"web":{"maximumAps":20,"whitelist":[]},"voice":{"recognitionLanguage":{"code":"ar-JO","description":"Arabic, Jordan"},"textToSpeechVoice":{"code":"Arabic, Laila","description":"Arabic-World Wide, Laila"},"recognitionPool":"","transcriptionSpeaker":{"name":"English (USA), en-US, v2","recognitionLanguage":{"code":"en-US","description":"English, United States"}},"mos":false,"outbound":false,"outboundWhitelist":[],"allowBlankCallingNumbers":false,"inboundBlacklist":[],"inboundWhitelist":[],"maximumAps":20,"majorConfidence":60,"minorConfidence":80,"majorMos":3.2,"minorMos":3.6,"preConnectRetryAttempts":null},"runLoadCampaignWithoutApproval":true,"runLoadCampaignWithoutBooking":false,"accountUsageReport":false,"servicesEnabled":false,"reportEmailDomainWhitelist":[]},"status":200}
+{
+  accountId: 30,
+  url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30',
+  name: 'Premium App - Donor',
+  dateActivated: '2020-07-22T14:00:00Z',
+  dateExpires: null,
+  country: 'Australia',
+  timeZone: 'Pacific Standard Time',
+  storageBackend: 'AmazonS3',
+  notificationEmails: [],
+  dateCreated: '2020-07-23T11:23:04.1510038Z',
+  active: true,
+  identityProviderId: null,
+  settings: {
+    crawler: { enabled: false, useSpeechReplies: false },
+    email: { maximumAps: 20, emailAccounts: [] },
+    sms: { maximumAps: 20, whitelist: [], smsNumbers: [] },
+    web: { maximumAps: 20, whitelist: [] },
+    voice: {
+      recognitionLanguage: [Object],
+      textToSpeechVoice: [Object],
+      recognitionPool: '',
+      transcriptionSpeaker: [Object],
+      mos: false,
+      outbound: false,
+      outboundWhitelist: [],
+      allowBlankCallingNumbers: false,
+      inboundBlacklist: [],
+      inboundWhitelist: [],
+      maximumAps: 20,
+      majorConfidence: 60,
+      minorConfidence: 80,
+      majorMos: 3.2,
+      minorMos: 3.6,
+      preConnectRetryAttempts: null
+    },
+    runLoadCampaignWithoutApproval: true,
+    runLoadCampaignWithoutBooking: false,
+    accountUsageReport: false,
+    servicesEnabled: false,
+    reportEmailDomainWhitelist: []
+  },
+  status: 200
+}
+Got Master Account Details
+2020-10-27T01:15:02.171Z
+2020-10-27T01:15:02.171Z
+27
+141
+2095-01-21T01:15:02.171Z
+2095-01-21T01:15:02.171Z
+accountDetails: {"name":"CyaraDemo (Genesys)","dateActivated":"2020-10-27T01:15:02.172Z","dateExpires":"2095-01-21T01:15:02.171Z","country":"Australia","timeZone":"Pacific Standard Time","storageBackend":"AmazonS3","notificationEmails":[],"active":true,"identityProviderId":null,"settings":{"crawler":{"enabled":false,"useSpeechReplies":false},"email":{"maximumAps":20,"emailAccounts":[]},"sms":{"maximumAps":20,"whitelist":[],"smsNumbers":[]},"web":{"maximumAps":20,"whitelist":[]},"voice":{"recognitionLanguage":{"code":"ar-JO","description":"Arabic, Jordan"},"textToSpeechVoice":{"code":"Arabic, Laila","description":"Arabic-World Wide, Laila"},"recognitionPool":"","transcriptionSpeaker":{"name":"English (USA), en-US, v2","recognitionLanguage":{"code":"en-US","description":"English, United States"}},"mos":false,"outbound":false,"outboundWhitelist":[],"allowBlankCallingNumbers":false,"inboundBlacklist":[],"inboundWhitelist":["+17812081180,+16504203690,+16503322160,+16504805193,+16505297181,+16504022997,+16504343993"],"maximumAps":20,"majorConfidence":60,"minorConfidence":80,"majorMos":3.2,"minorMos":3.6,"preConnectRetryAttempts":null},"runLoadCampaignWithoutApproval":true,"runLoadCampaignWithoutBooking":false,"accountUsageReport":false,"servicesEnabled":false,"reportEmailDomainWhitelist":[]},"status":200}
+statusCode:  200
+{"accountId":83,"url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83","name":"CyaraDemo (Genesys)","dateActivated":"2020-10-27T01:15:02.172Z","dateExpires":"2095-01-21T01:15:02.171Z","country":"Australia","timeZone":"Pacific Standard Time","storageBackend":"AmazonS3","notificationEmails":[],"dateCreated":"2020-10-27T01:15:04.2008606Z","active":true,"identityProviderId":null,"settings":{"crawler":{"enabled":false,"useSpeechReplies":false},"email":{"maximumAps":20,"emailAccounts":[]},"sms":{"maximumAps":20,"whitelist":[],"smsNumbers":[]},"web":{"maximumAps":20,"whitelist":[]},"voice":{"recognitionLanguage":{"code":"ar-JO","description":"Arabic, Jordan"},"textToSpeechVoice":{"code":"Arabic, Laila","description":"Arabic-World Wide, Laila"},"recognitionPool":"","transcriptionSpeaker":{"name":"Arabic (Jordan), ar-JO, v2","recognitionLanguage":{"code":"ar-JO","description":"Arabic, Jordan"}},"mos":false,"outbound":false,"outboundWhitelist":[],"allowBlankCallingNumbers":false,"inboundBlacklist":[],"inboundWhitelist":["+17812081180","+16504203690","+16503322160","+16504805193","+16505297181","+16504022997","+16504343993"],"maximumAps":20,"majorConfidence":60,"minorConfidence":80,"majorMos":3.2,"minorMos":3.6,"preConnectRetryAttempts":null},"runLoadCampaignWithoutApproval":true,"runLoadCampaignWithoutBooking":false,"accountUsageReport":false,"servicesEnabled":false,"reportEmailDomainWhitelist":[]},"status":200}
+Checking account
+checkForError: {"accountId":83,"url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83","name":"CyaraDemo (Genesys)","dateActivated":"2020-10-27T01:15:02.172Z","dateExpires":"2095-01-21T01:15:02.171Z","country":"Australia","timeZone":"Pacific Standard Time","storageBackend":"AmazonS3","notificationEmails":[],"dateCreated":"2020-10-27T01:15:04.2008606Z","active":true,"identityProviderId":null,"settings":{"crawler":{"enabled":false,"useSpeechReplies":false},"email":{"maximumAps":20,"emailAccounts":[]},"sms":{"maximumAps":20,"whitelist":[],"smsNumbers":[]},"web":{"maximumAps":20,"whitelist":[]},"voice":{"recognitionLanguage":{"code":"ar-JO","description":"Arabic, Jordan"},"textToSpeechVoice":{"code":"Arabic, Laila","description":"Arabic-World Wide, Laila"},"recognitionPool":"","transcriptionSpeaker":{"name":"Arabic (Jordan), ar-JO, v2","recognitionLanguage":{"code":"ar-JO","description":"Arabic, Jordan"}},"mos":false,"outbound":false,"outboundWhitelist":[],"allowBlankCallingNumbers":false,"inboundBlacklist":[],"inboundWhitelist":["+17812081180","+16504203690","+16503322160","+16504805193","+16505297181","+16504022997","+16504343993"],"maximumAps":20,"majorConfidence":60,"minorConfidence":80,"majorMos":3.2,"minorMos":3.6,"preConnectRetryAttempts":null},"runLoadCampaignWithoutApproval":true,"runLoadCampaignWithoutBooking":false,"accountUsageReport":false,"servicesEnabled":false,"reportEmailDomainWhitelist":[]},"status":200}
+Generated duplicate shell account
+{
+  accountId: 83,
+  url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83',
+  name: 'CyaraDemo (Genesys)',
+  dateActivated: '2020-10-27T01:15:02.172Z',
+  dateExpires: '2095-01-21T01:15:02.171Z',
+  country: 'Australia',
+  timeZone: 'Pacific Standard Time',
+  storageBackend: 'AmazonS3',
+  notificationEmails: [],
+  dateCreated: '2020-10-27T01:15:04.2008606Z',
+  active: true,
+  identityProviderId: null,
+  settings: {
+    crawler: { enabled: false, useSpeechReplies: false },
+    email: { maximumAps: 20, emailAccounts: [] },
+    sms: { maximumAps: 20, whitelist: [], smsNumbers: [] },
+    web: { maximumAps: 20, whitelist: [] },
+    voice: {
+      recognitionLanguage: [Object],
+      textToSpeechVoice: [Object],
+      recognitionPool: '',
+      transcriptionSpeaker: [Object],
+      mos: false,
+      outbound: false,
+      outboundWhitelist: [],
+      allowBlankCallingNumbers: false,
+      inboundBlacklist: [],
+      inboundWhitelist: [Array],
+      maximumAps: 20,
+      majorConfidence: 60,
+      minorConfidence: 80,
+      majorMos: 3.2,
+      minorMos: 3.6,
+      preConnectRetryAttempts: null
+    },
+    runLoadCampaignWithoutApproval: true,
+    runLoadCampaignWithoutBooking: false,
+    accountUsageReport: false,
+    servicesEnabled: false,
+    reportEmailDomainWhitelist: []
+  },
+  status: 200
+}
+new accountID: 83
+Start getting all plans
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans?pagesize=1000&pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans?pagesize=1000&pageno=1","nextPage":null,"previousPage":null,"results":[{"channel":"Voice","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/82","planId":82,"accountId":30,"type":"Pulse","name":"Premium App Pulse","startDate":"2019-05-01T17:49:00Z","endDate":"2020-08-02T04:24:00Z"},{"channel":"Voice","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/83","planId":83,"accountId":30,"type":"Velocity","name":"Premium App Velocity","startDate":"2020-07-02T04:25:00Z","endDate":"2020-08-02T04:25:00Z"}],"totalResults":2,"returnedResults":2,"status":200}
+Retrieved plans from master account
+{
+  firstPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans?pagesize=1000&pageno=1',
+  lastPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans?pagesize=1000&pageno=1',
+  nextPage: null,
+  previousPage: null,
+  results: [
+    {
+      channel: 'Voice',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/82',
+      planId: 82,
+      accountId: 30,
+      type: 'Pulse',
+      name: 'Premium App Pulse',
+      startDate: '2019-05-01T17:49:00Z',
+      endDate: '2020-08-02T04:24:00Z'
+    },
+    {
+      channel: 'Voice',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/83',
+      planId: 83,
+      accountId: 30,
+      type: 'Velocity',
+      name: 'Premium App Velocity',
+      startDate: '2020-07-02T04:25:00Z',
+      endDate: '2020-08-02T04:25:00Z'
+    }
+  ],
+  totalResults: 2,
+  returnedResults: 2,
+  status: 200
+}
+{
+  channel: 'Voice',
+  url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/82',
+  planId: 82,
+  accountId: 30,
+  type: 'Pulse',
+  name: 'Premium App Pulse',
+  startDate: '2019-05-01T17:49:00Z',
+  endDate: '2020-08-02T04:24:00Z'
+}
+Retrieving plan from master account
+statusCode:  200
+checkForError: {"subType":"Speech","minimumFrequency":1,"settings":{"premium":false,"inCountryEnabled":true,"maximumAps":20},"channel":"Voice","note":null,"concurrency":5,"notificationEmails":[],"planId":82,"accountId":30,"type":"Pulse","name":"Premium App Pulse","startDate":"2019-05-01T17:49:00Z","endDate":"2020-08-02T04:24:00Z","status":200}
+{
+  subType: 'Speech',
+  minimumFrequency: 1,
+  settings: { premium: false, inCountryEnabled: true, maximumAps: 20 },
+  channel: 'Voice',
+  note: null,
+  concurrency: 5,
+  notificationEmails: [],
+  planId: 82,
+  accountId: 30,
+  type: 'Pulse',
+  name: 'Premium App Pulse',
+  startDate: '2019-05-01T17:49:00Z',
+  endDate: '2020-08-02T04:24:00Z',
+  status: 200
+}
+2020-10-27T01:15:08.082Z
+27
+14
+2028-03-06T01:15:08.082Z
+Creating plan on new account
+{ 'accountId': '83', 'name': 'Premium App Pulse', 'subType': 'Speech', 'note': '07eb24ba-2b64-42d8-a4df-2e419dc97304
+TestingAppId', 'channel': 'Voice', 'type': 'Pulse', 'startDate': '2019-05-01T17:49:00Z', 'endDate': '2028-03-06T01:15:08.082Z', 'concurrency': 5, 'settings': {"premium":false,"inCountryEnabled":true,"maximumAps":20}, 'notificationEmails': [], 'minimumFrequency': 1 }
+statusCode:  200
+checkForError: {"subType":"Speech","minimumFrequency":1,"settings":{"premium":false,"inCountryEnabled":true,"maximumAps":20},"channel":"Voice","note":"07eb24ba-2b64-42d8-a4df-2e419dc97304\nTestingAppId","concurrency":5,"notificationEmails":[],"planId":196,"accountId":83,"type":"Pulse","name":"Premium App Pulse","startDate":"2019-05-01T17:49:00Z","endDate":"2028-03-06T01:15:08.082Z","status":200}
+{
+  subType: 'Speech',
+  minimumFrequency: 1,
+  settings: { premium: false, inCountryEnabled: true, maximumAps: 20 },
+  channel: 'Voice',
+  note: '07eb24ba-2b64-42d8-a4df-2e419dc97304\nTestingAppId',
+  concurrency: 5,
+  notificationEmails: [],
+  planId: 196,
+  accountId: 83,
+  type: 'Pulse',
+  name: 'Premium App Pulse',
+  startDate: '2019-05-01T17:49:00Z',
+  endDate: '2028-03-06T01:15:08.082Z',
+  status: 200
+}
+{
+  channel: 'Voice',
+  url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/83',
+  planId: 83,
+  accountId: 30,
+  type: 'Velocity',
+  name: 'Premium App Velocity',
+  startDate: '2020-07-02T04:25:00Z',
+  endDate: '2020-08-02T04:25:00Z'
+}
+Retrieving plan from master account
+statusCode:  200
+checkForError: {"subType":"Speech","settings":{"inCountryEnabled":false,"maximumAps":20},"channel":"Voice","note":null,"concurrency":5,"notificationEmails":[],"planId":83,"accountId":30,"type":"Velocity","name":"Premium App Velocity","startDate":"2020-07-02T04:25:00Z","endDate":"2020-08-02T04:25:00Z","status":200}
+{
+  subType: 'Speech',
+  settings: { inCountryEnabled: false, maximumAps: 20 },
+  channel: 'Voice',
+  note: null,
+  concurrency: 5,
+  notificationEmails: [],
+  planId: 83,
+  accountId: 30,
+  type: 'Velocity',
+  name: 'Premium App Velocity',
+  startDate: '2020-07-02T04:25:00Z',
+  endDate: '2020-08-02T04:25:00Z',
+  status: 200
+}
+2020-10-27T01:15:12.333Z
+27
+14
+2028-03-06T01:15:12.333Z
+Creating plan on new account
+{ 'accountId': '83', 'name': 'Premium App Velocity', 'subType': 'Speech', 'note': '07eb24ba-2b64-42d8-a4df-2e419dc97304
+TestingAppId', 'channel': 'Voice', 'type': 'Velocity', 'startDate': '2020-07-02T04:25:00Z', 'endDate': '2028-03-06T01:15:12.333Z', 'concurrency': 5, 'settings': {"inCountryEnabled":false,"maximumAps":20}, 'notificationEmails': [] }
+statusCode:  200
+checkForError: {"subType":"Speech","settings":{"inCountryEnabled":false,"maximumAps":20},"channel":"Voice","note":"07eb24ba-2b64-42d8-a4df-2e419dc97304\nTestingAppId","concurrency":5,"notificationEmails":[],"planId":197,"accountId":83,"type":"Velocity","name":"Premium App Velocity","startDate":"2020-07-02T04:25:00Z","endDate":"2028-03-06T01:15:12.333Z","status":200}
+{
+  subType: 'Speech',
+  settings: { inCountryEnabled: false, maximumAps: 20 },
+  channel: 'Voice',
+  note: '07eb24ba-2b64-42d8-a4df-2e419dc97304\nTestingAppId',
+  concurrency: 5,
+  notificationEmails: [],
+  planId: 197,
+  accountId: 83,
+  type: 'Velocity',
+  name: 'Premium App Velocity',
+  startDate: '2020-07-02T04:25:00Z',
+  endDate: '2028-03-06T01:15:12.333Z',
+  status: 200
+}
+{
+  firstPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans?pagesize=1000&pageno=1',
+  lastPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans?pagesize=1000&pageno=1',
+  nextPage: null,
+  previousPage: null,
+  results: [
+    {
+      channel: 'Voice',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/82',
+      planId: 82,
+      accountId: 30,
+      type: 'Pulse',
+      name: 'Premium App Pulse',
+      startDate: '2019-05-01T17:49:00Z',
+      endDate: '2020-08-02T04:24:00Z'
+    },
+    {
+      channel: 'Voice',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/83',
+      planId: 83,
+      accountId: 30,
+      type: 'Velocity',
+      name: 'Premium App Velocity',
+      startDate: '2020-07-02T04:25:00Z',
+      endDate: '2020-08-02T04:25:00Z'
+    }
+  ],
+  totalResults: 2,
+  returnedResults: 2,
+  status: 200
+}
+List master campaigns
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/campaigns?channel=Voice&pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/campaigns?channel=Voice&pageno=1","nextPage":null,"previousPage":null,"results":[{"active":false,"campaignId":198,"channel":"Voice","name":"Donor campaign","lastRunDate":null,"requestedRunDate":"2020-07-23T11:46:00Z","planType":"Pulse","scheduledRunDate":"2020-07-23T11:46:00Z","status":"None","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/campaigns/198"}],"totalResults":1,"returnedResults":1,"status":200}
+List shell campaigns
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/campaigns?channel=Voice&pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/campaigns?channel=Voice&pageno=0","nextPage":null,"previousPage":null,"results":[],"totalResults":0,"returnedResults":0,"status":200}
+{
+  firstPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/campaigns?channel=Voice&pageno=1',
+  lastPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/campaigns?channel=Voice&pageno=1',
+  nextPage: null,
+  previousPage: null,
+  results: [
+    {
+      active: false,
+      campaignId: 198,
+      channel: 'Voice',
+      name: 'Donor campaign',
+      lastRunDate: null,
+      requestedRunDate: '2020-07-23T11:46:00Z',
+      planType: 'Pulse',
+      scheduledRunDate: '2020-07-23T11:46:00Z',
+      status: 'None',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/campaigns/198'
+    }
+  ],
+  totalResults: 1,
+  returnedResults: 1,
+  status: 200
+}
+{
+  active: false,
+  campaignId: 198,
+  channel: 'Voice',
+  name: 'Donor campaign',
+  lastRunDate: null,
+  requestedRunDate: '2020-07-23T11:46:00Z',
+  planType: 'Pulse',
+  scheduledRunDate: '2020-07-23T11:46:00Z',
+  status: 'None',
+  url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/campaigns/198'
+}
+Getting campaign from master account
+statusCode:  200
+checkForError: {"concurrency":5,"maximumAps":20,"frequency":"1.00:00:00","testCaseDistributionProfile":"RoundRobin","active":false,"campaignId":198,"channel":"Voice","description":null,"name":"Donor campaign","lastRunDate":null,"requestedRunDate":"2020-07-23T11:46:00Z","scheduledRunDate":"2020-07-23T11:46:00Z","status":200,"plan":{"planId":82,"type":"Pulse","name":"Premium App Pulse","startDate":"2019-05-01T17:49:00Z","endDate":"2020-08-02T04:24:00Z"},"testCases":[{"calledNumber":"55555555555","probability":100,"testCaseId":52423,"name":"Donor Test Case","folderPath":"\\","channel":"Voice","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/testcases/52423"}],"schedules":[],"schedulePauses":[]}
+{
+  concurrency: 5,
+  maximumAps: 20,
+  frequency: '1.00:00:00',
+  testCaseDistributionProfile: 'RoundRobin',
+  active: false,
+  campaignId: 198,
+  channel: 'Voice',
+  description: null,
+  name: 'Donor campaign',
+  lastRunDate: null,
+  requestedRunDate: '2020-07-23T11:46:00Z',
+  scheduledRunDate: '2020-07-23T11:46:00Z',
+  status: 200,
+  plan: {
+    planId: 82,
+    type: 'Pulse',
+    name: 'Premium App Pulse',
+    startDate: '2019-05-01T17:49:00Z',
+    endDate: '2020-08-02T04:24:00Z'
+  },
+  testCases: [
+    {
+      calledNumber: '55555555555',
+      probability: 100,
+      testCaseId: 52423,
+      name: 'Donor Test Case',
+      folderPath: '\\',
+      channel: 'Voice',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/testcases/52423'
+    }
+  ],
+  schedules: [],
+  schedulePauses: []
+}
+{
+  calledNumber: '55555555555',
+  probability: 100,
+  testCaseId: 52423,
+  name: 'Donor Test Case',
+  folderPath: '\\',
+  channel: 'Voice',
+  url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/testcases/52423'
+}
+getting TCXML from master account for campaign
+statusCode:  200
+checkForError: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<TestSpecification xmlns=\"TestSpecification.xsd\">\r\n  <TestCases>\r\n    <TestCase>\r\n      <TestCaseName>Donor Test Case</TestCaseName>\r\n      <MediaType>Voice</MediaType>\r\n      <FolderPath />\r\n      <Description />\r\n      <PhoneNo>55555555555</PhoneNo>\r\n      <PhoneNoLocal>false</PhoneNoLocal>\r\n      <Notes />\r\n      <AlertMsg />\r\n      <PreConnectAudio />\r\n      <AlertFrequency>Once</AlertFrequency>\r\n      <MinorThresholdCriticalCount>3</MinorThresholdCriticalCount>\r\n      <MajorThresholdCriticalCount>1</MajorThresholdCriticalCount>\r\n      <Steps>\r\n        <RingingStep>\r\n          <MinPauseTime>0</MinPauseTime>\r\n          <MaxPauseTime>0</MaxPauseTime>\r\n          <MinorThresholdTime>5</MinorThresholdTime>\r\n          <MajorThresholdTime>10</MajorThresholdTime>\r\n        </RingingStep>\r\n        <CallSteps>\r\n          <Step>\r\n            <StepNo>1</StepNo>\r\n            <Description>Hold call</Description>\r\n            <ExpectedText>{Ignore}</ExpectedText>\r\n            <ExpectedExchangeType>MPSR</ExpectedExchangeType>\r\n            <ReplyText />\r\n            <ReplyExchangeType>DTMF</ReplyExchangeType>\r\n            <MinorThresholdTime>3</MinorThresholdTime>\r\n            <MajorThresholdTime>5</MajorThresholdTime>\r\n            <MinPauseTime>0</MinPauseTime>\r\n            <MaxPauseTime>0</MaxPauseTime>\r\n            <MajorConfidenceLevel>60</MajorConfidenceLevel>\r\n            <MinorConfidenceLevel>80</MinorConfidenceLevel>\r\n            <PostSpeechSilenceTimeout>30</PostSpeechSilenceTimeout>\r\n            <BlockPath />\r\n          </Step>\r\n        </CallSteps>\r\n      </Steps>\r\n    </TestCase>\r\n  </TestCases>\r\n</TestSpecification>"
+Importing TCXML into new account for campaign
+statusCode:  200
+checkForError: {"results":[{"xPath":"/TestCases/TestCase[001]","name":"Donor Test Case","folderPath":"\\","id":66295,"information":[{"xPath":"/TestCases/TestCase[001]","result":"Test Case Number 1: Donor Test Case","message":{"code":"XMLImport_TestCaseNumber","args":["1","Donor Test Case"]}},{"xPath":"/TestCases/TestCase[001]","result":"Folder path: \\","message":{"code":"XMLImport_FolderPath","args":["\\"]}},{"xPath":"/TestCases/TestCase[001]","result":"Starting TestCase validation...","message":{"code":"XMLImport_ValidatingTestCase","args":null}},{"xPath":"/TestCases/TestCase[001]","result":"Starting steps data validation","message":{"code":"XMLImport_StartStepValidation","args":null}},{"xPath":"/TestCases/TestCase[001]","result":"Saving Test Case 'Donor Test Case' to storage.","message":{"code":"XMLImport_SavingTestCaseToStorage","args":["Donor Test Case"]}},{"xPath":"/TestCases/TestCase[001]/Steps/CallSteps/Step[001]","result":"Call step StepNo 1","message":{"code":"XMLImport_CallStepStepNumber","args":["1"]}},{"xPath":"/TestCases/TestCase[001]/Steps/CallSteps/Step[001]","result":"Validating step at position 1","message":{"code":"XMLImport_ValidatingStepNo","args":["1"]}},{"xPath":"/TestCases/TestCase[001]/Steps/RingingStep","result":"Validating step at position 0","message":{"code":"XMLImport_ValidatingStepNo","args":["0"]}}],"error":[]}],"status":200}
+{
+  results: [
+    {
+      xPath: '/TestCases/TestCase[001]',
+      name: 'Donor Test Case',
+      folderPath: '\\',
+      id: 66295,
+      information: [Array],
+      error: []
+    }
+  ],
+  status: 200
+}
+{
+  concurrency: 5,
+  maximumAps: 20,
+  frequency: '1.00:00:00',
+  testCaseDistributionProfile: 'RoundRobin',
+  active: false,
+  campaignId: 198,
+  channel: 'Voice',
+  description: null,
+  name: 'Donor campaign',
+  lastRunDate: null,
+  requestedRunDate: '2020-07-23T11:46:00Z',
+  scheduledRunDate: '2020-07-23T11:46:00Z',
+  status: 200,
+  plan: {
+    planId: 196,
+    type: 'Pulse',
+    name: 'Premium App Pulse',
+    startDate: '2019-05-01T17:49:00Z',
+    endDate: '2020-08-02T04:24:00Z'
+  },
+  testCases: [
+    {
+      calledNumber: '55555555555',
+      probability: 100,
+      testCaseId: 66295,
+      name: 'Donor Test Case',
+      folderPath: '\\',
+      channel: 'Voice',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/testcases/52423'
+    }
+  ],
+  schedules: [],
+  schedulePauses: []
+}
+creating campaign on new account
+statusCode:  200
+checkForError: {"concurrency":5,"maximumAps":20,"frequency":"1.00:00:00","testCaseDistributionProfile":"RoundRobin","active":false,"campaignId":318,"channel":"Voice","description":null,"name":"Donor campaign","lastRunDate":null,"requestedRunDate":"2020-07-23T11:46:00Z","scheduledRunDate":"2020-07-23T11:46:00Z","status":200,"plan":{"planId":196,"type":"Pulse","name":"Premium App Pulse","startDate":"2019-05-01T17:49:00Z","endDate":"2028-03-06T01:15:08.082Z"},"testCases":[{"calledNumber":"55555555555","probability":100,"testCaseId":66295,"name":"Donor Test Case","folderPath":"\\","channel":"Voice","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/testcases/66295"}],"schedules":[],"schedulePauses":[]}
+{
+  concurrency: 5,
+  maximumAps: 20,
+  frequency: '1.00:00:00',
+  testCaseDistributionProfile: 'RoundRobin',
+  active: false,
+  campaignId: 318,
+  channel: 'Voice',
+  description: null,
+  name: 'Donor campaign',
+  lastRunDate: null,
+  requestedRunDate: '2020-07-23T11:46:00Z',
+  scheduledRunDate: '2020-07-23T11:46:00Z',
+  status: 200,
+  plan: {
+    planId: 196,
+    type: 'Pulse',
+    name: 'Premium App Pulse',
+    startDate: '2019-05-01T17:49:00Z',
+    endDate: '2028-03-06T01:15:08.082Z'
+  },
+  testCases: [
+    {
+      calledNumber: '55555555555',
+      probability: 100,
+      testCaseId: 66295,
+      name: 'Donor Test Case',
+      folderPath: '\\',
+      channel: 'Voice',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/testcases/66295'
+    }
+  ],
+  schedules: [],
+  schedulePauses: []
+}
+listing test cases on master account
+statusCode:  200
+{"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/testcases?pagesize=1000&pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/testcases?pagesize=1000&pageno=1","nextPage":null,"previousPage":null,"results":[{"accountId":30,"testCaseId":52423,"direction":"Inbound","channel":"Voice","name":"Donor Test Case","folderPath":"\\","stepCount":2,"lastModified":"2020-07-23T11:46:11.8170805Z","destination":"55555555555","linkedCampaignCount":1}],"totalResults":1,"returnedResults":1,"status":200}
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/testcases?pagesize=1000&pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/testcases?pagesize=1000&pageno=1","nextPage":null,"previousPage":null,"results":[{"accountId":30,"testCaseId":52423,"direction":"Inbound","channel":"Voice","name":"Donor Test Case","folderPath":"\\","stepCount":2,"lastModified":"2020-07-23T11:46:11.8170805Z","destination":"55555555555","linkedCampaignCount":1}],"totalResults":1,"returnedResults":1,"status":200}
+listing CX Models on master account
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/models?pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/models?pageno=0","nextPage":null,"previousPage":null,"results":[],"totalResults":0,"returnedResults":0,"status":200}
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/models?pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/models?pageno=0","nextPage":null,"previousPage":null,"results":[],"totalResults":0,"returnedResults":0,"status":200}
+Creating user
+statusCode:  200
+checkForError: {"userId":"13dda896-fc94-4907-a913-d9ce9dac43ae","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/users/13dda896-fc94-4907-a913-d9ce9dac43ae","locked":false,"lockoutEnabled":true,"lockoutEndDate":null,"dateCreated":"2020-10-27T01:15:31.1776865Z","lastLoginDate":null,"defaultAccount":0,"username":"godwin8.nadarajan.zzz8cyarademo","firstname":"Godwin8","lastname":"Nadarajan","telephone":"1","mobile":null,"email":"godwin.nadarajan@cyara.com","active":true,"platformNotifications":false,"fullScreen":true,"roles":["Admin","DashboardAdmin","UserAdmin","CCMAdmin"],"loginProviders":["Identity"],"status":200}
+Created user
+{
+  userId: '13dda896-fc94-4907-a913-d9ce9dac43ae',
+  url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/users/13dda896-fc94-4907-a913-d9ce9dac43ae',
+  locked: false,
+  lockoutEnabled: true,
+  lockoutEndDate: null,
+  dateCreated: '2020-10-27T01:15:31.1776865Z',
+  lastLoginDate: null,
+  defaultAccount: 0,
+  username: 'godwin8.nadarajan.zzz8cyarademo',
+  firstname: 'Godwin8',
+  lastname: 'Nadarajan',
+  telephone: '1',
+  mobile: null,
+  email: 'godwin.nadarajan@cyara.com',
+  active: true,
+  platformNotifications: false,
+  fullScreen: true,
+  roles: [ 'Admin', 'DashboardAdmin', 'UserAdmin', 'CCMAdmin' ],
+  loginProviders: [ 'Identity' ],
+  status: 200
+}
+Attaching user
+statusCode:  200
+checkForError: "Ok"
+Attached user
+Ok
+Listing user's accounts
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/users/13dda896-fc94-4907-a913-d9ce9dac43ae/accounts?pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/users/13dda896-fc94-4907-a913-d9ce9dac43ae/accounts?pageno=1","nextPage":null,"previousPage":null,"results":[{"accountId":83,"name":"CyaraDemo (Genesys)","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83"}],"totalResults":1,"returnedResults":1,"status":200}
+Got user accounts
+{
+  firstPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/users/13dda896-fc94-4907-a913-d9ce9dac43ae/accounts?pageno=1',
+  lastPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/users/13dda896-fc94-4907-a913-d9ce9dac43ae/accounts?pageno=1',
+  nextPage: null,
+  previousPage: null,
+  results: [
+    {
+      accountId: 83,
+      name: 'CyaraDemo (Genesys)',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83'
+    }
+  ],
+  totalResults: 1,
+  returnedResults: 1,
+  status: 200
+}
+This user is ready.
+finalResponse:
+[33m{"message":"Account duplicated. It is ready at https://sit.cyaraportal.com/cyarawebportal/83/home","status":200}[0m
+
+
+Error: 
+2020-10-27 12:15:43 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1193,"messageTime":1329,"messageSize":17486,"response":"250 2.0.0 OK  1603761343 u13sm8677917pfl.162 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<73484880-15cc-3473-816c-f88fcea7da1c@cyara.com>"}
+2020-10-27 12:15:43 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1198,"messageTime":1782,"messageSize":81874,"response":"250 2.0.0 OK  1603761343 g17sm12784317pfu.130 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<7beae8f3-cd2f-7d4a-bf4c-31c57852d078@cyara.com>"}
+2020-10-27 12:18:48 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: 'XNhwKLi-wOR8',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    '+17812081180,+16504203690,+16503322160,+16504805193,+16505297181,+16504022997,+16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-27 12:18:52 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1054,"messageTime":1249,"messageSize":20837,"response":"250 2.0.0 OK  1603761532 w16sm12539807pfn.148 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<0c74c81d-889a-fa99-e86f-44a419dde16c@cyara.com>"}
+2020-10-27 12:18:52 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1152,"messageTime":1269,"messageSize":20841,"response":"250 2.0.0 OK  1603761532 bx24sm17179pjb.20 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<0ac14859-ecd2-a907-4f38-31275a820820@cyara.com>"}
+2020-10-27 12:21:11 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin9',
+      customerLastName: 'Nadarajan',
+      customerPassword: 'fc24-Wq3lRd1',
+      customerPhone: '1',
+      customerCompany: 'zzz9CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: 'gavin.sansom',
+  platformAdminPassword: 'EgmQ0tieTQ1aDMUd338X!!',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    '+17812081180,+16504203690,+16503322160,+16504805193,+16505297181,+16504022997,+16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  200
+checkForError: {"key":"d9b45295c35e411685b47b5556162988","token":"dA1QyPBi/RFlNQo5Qlir/z7n3Tt0RjaAYgDApMvfXC0=","apiKey":"ApiKey d9b45295c35e411685b47b5556162988:dA1QyPBi/RFlNQo5Qlir/z7n3Tt0RjaAYgDApMvfXC0=","status":200}
+statusCode:  200
+checkForError: {"accountId":30,"url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30","name":"Premium App - Donor","dateActivated":"2020-07-22T14:00:00Z","dateExpires":null,"country":"Australia","timeZone":"Pacific Standard Time","storageBackend":"AmazonS3","notificationEmails":[],"dateCreated":"2020-07-23T11:23:04.1510038Z","active":true,"identityProviderId":null,"settings":{"crawler":{"enabled":false,"useSpeechReplies":false},"email":{"maximumAps":20,"emailAccounts":[]},"sms":{"maximumAps":20,"whitelist":[],"smsNumbers":[]},"web":{"maximumAps":20,"whitelist":[]},"voice":{"recognitionLanguage":{"code":"ar-JO","description":"Arabic, Jordan"},"textToSpeechVoice":{"code":"Arabic, Laila","description":"Arabic-World Wide, Laila"},"recognitionPool":"","transcriptionSpeaker":{"name":"English (USA), en-US, v2","recognitionLanguage":{"code":"en-US","description":"English, United States"}},"mos":false,"outbound":false,"outboundWhitelist":[],"allowBlankCallingNumbers":false,"inboundBlacklist":[],"inboundWhitelist":[],"maximumAps":20,"majorConfidence":60,"minorConfidence":80,"majorMos":3.2,"minorMos":3.6,"preConnectRetryAttempts":null},"runLoadCampaignWithoutApproval":true,"runLoadCampaignWithoutBooking":false,"accountUsageReport":false,"servicesEnabled":false,"reportEmailDomainWhitelist":[]},"status":200}
+{
+  accountId: 30,
+  url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30',
+  name: 'Premium App - Donor',
+  dateActivated: '2020-07-22T14:00:00Z',
+  dateExpires: null,
+  country: 'Australia',
+  timeZone: 'Pacific Standard Time',
+  storageBackend: 'AmazonS3',
+  notificationEmails: [],
+  dateCreated: '2020-07-23T11:23:04.1510038Z',
+  active: true,
+  identityProviderId: null,
+  settings: {
+    crawler: { enabled: false, useSpeechReplies: false },
+    email: { maximumAps: 20, emailAccounts: [] },
+    sms: { maximumAps: 20, whitelist: [], smsNumbers: [] },
+    web: { maximumAps: 20, whitelist: [] },
+    voice: {
+      recognitionLanguage: [Object],
+      textToSpeechVoice: [Object],
+      recognitionPool: '',
+      transcriptionSpeaker: [Object],
+      mos: false,
+      outbound: false,
+      outboundWhitelist: [],
+      allowBlankCallingNumbers: false,
+      inboundBlacklist: [],
+      inboundWhitelist: [],
+      maximumAps: 20,
+      majorConfidence: 60,
+      minorConfidence: 80,
+      majorMos: 3.2,
+      minorMos: 3.6,
+      preConnectRetryAttempts: null
+    },
+    runLoadCampaignWithoutApproval: true,
+    runLoadCampaignWithoutBooking: false,
+    accountUsageReport: false,
+    servicesEnabled: false,
+    reportEmailDomainWhitelist: []
+  },
+  status: 200
+}
+Got Master Account Details
+2020-10-27T01:20:38.733Z
+2020-10-27T01:20:38.733Z
+27
+141
+2095-01-21T01:20:38.733Z
+2095-01-21T01:20:38.733Z
+accountDetails: {"name":"CyaraDemo (Genesys)","dateActivated":"2020-10-27T01:20:38.734Z","dateExpires":"2095-01-21T01:20:38.733Z","country":"Australia","timeZone":"Pacific Standard Time","storageBackend":"AmazonS3","notificationEmails":[],"active":true,"identityProviderId":null,"settings":{"crawler":{"enabled":false,"useSpeechReplies":false},"email":{"maximumAps":20,"emailAccounts":[]},"sms":{"maximumAps":20,"whitelist":[],"smsNumbers":[]},"web":{"maximumAps":20,"whitelist":[]},"voice":{"recognitionLanguage":{"code":"ar-JO","description":"Arabic, Jordan"},"textToSpeechVoice":{"code":"Arabic, Laila","description":"Arabic-World Wide, Laila"},"recognitionPool":"","transcriptionSpeaker":{"name":"English (USA), en-US, v2","recognitionLanguage":{"code":"en-US","description":"English, United States"}},"mos":false,"outbound":false,"outboundWhitelist":[],"allowBlankCallingNumbers":false,"inboundBlacklist":[],"inboundWhitelist":["+17812081180,+16504203690,+16503322160,+16504805193,+16505297181,+16504022997,+16504343993"],"maximumAps":20,"majorConfidence":60,"minorConfidence":80,"majorMos":3.2,"minorMos":3.6,"preConnectRetryAttempts":null},"runLoadCampaignWithoutApproval":true,"runLoadCampaignWithoutBooking":false,"accountUsageReport":false,"servicesEnabled":false,"reportEmailDomainWhitelist":[]},"status":200}
+statusCode:  400
+{"message":"Failed to validate request","messageDetail":[{"field":"Name","errors":[{"code":"DuplicateName","error":"The name is already being used","args":null}]}],"status":400}
+OVERWRITE INITIATED
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/?pagesize=1000&pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/?pagesize=1000&pageno=1","nextPage":null,"previousPage":null,"results":[{"accountId":42,"name":"1k TCS","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/42"},{"accountId":28,"name":"25k TCS","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/28"},{"accountId":14,"name":"aaa_pentester","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/14"},{"accountId":39,"name":"abc","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/39"},{"accountId":72,"name":"Australian","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/72"},{"accountId":13,"name":"avishek.verma","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/13"},{"accountId":12,"name":"COE","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/12"},{"accountId":46,"name":"crawler load test","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/46"},{"accountId":1,"name":"Cyara NOC","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/1"},{"accountId":81,"name":"Cyara Phone Demo Account","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/81"},{"accountId":10,"name":"Cyara Support","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/10"},{"accountId":11,"name":"Cyara_QA","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/11"},{"accountId":83,"name":"CyaraDemo (Genesys)","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83"},{"accountId":18,"name":"Demo1","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/18"},{"accountId":21,"name":"Demo2","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/21"},{"accountId":20,"name":"Demo3","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/20"},{"accountId":19,"name":"Demo4","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/19"},{"accountId":31,"name":"Genesys Test","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/31"},{"accountId":32,"name":"Genesys Test1","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/32"},{"accountId":73,"name":"German","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/73"},{"accountId":74,"name":"German-Swiss","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/74"},{"accountId":7,"name":"Griffin","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/7"},{"accountId":6,"name":"Gruffalo","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/6"},{"accountId":15,"name":"Janis - Demo","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/15"},{"accountId":29,"name":"Janis - Pulse Premium Demo","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/29"},{"accountId":71,"name":"jQueryAccount","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/71"},{"accountId":26,"name":"LDAPs Testing","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/26"},{"accountId":45,"name":"Microsoft","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/45"},{"accountId":17,"name":"no-velocity","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/17"},{"accountId":24,"name":"pagereloadplan","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/24"},{"accountId":25,"name":"pallavi SIT","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/25"},{"accountId":2,"name":"Pegasus","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/2"},{"accountId":5,"name":"Phoenix","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/5"},{"accountId":8,"name":"PM","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/8"},{"accountId":30,"name":"Premium App - Donor","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30"},{"accountId":47,"name":"Product Management","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/47"},{"accountId":9,"name":"Rapid7_HT","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/9"},{"accountId":23,"name":"replaycampaign","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/23"},{"accountId":27,"name":"ReplayToVelocity","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/27"},{"accountId":70,"name":"Rohit MOS Test","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/70"},{"accountId":76,"name":"Rohit POC Altice","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/76"},{"accountId":51,"name":"Rohit POC Deloitte","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/51"},{"accountId":64,"name":"Rohit POC ECB","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/64"},{"accountId":75,"name":"Rohit POC Pepper Money","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/75"},{"accountId":69,"name":"Rohit POV Hilton","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/69"},{"accountId":68,"name":"Rohit Zombie Alliance","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/68"},{"accountId":50,"name":"rohitaccounttest","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/50"},{"accountId":22,"name":"SAML","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/22"},{"accountId":4,"name":"Santa","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/4"},{"accountId":16,"name":"Unicorn","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/16"},{"accountId":3,"name":"Werewolf","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/3"},{"accountId":41,"name":"werewolf.cypress","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/41"},{"accountId":40,"name":"whitelist","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/40"},{"accountId":33,"name":"zzz Genesys Test","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/33"},{"accountId":34,"name":"zzz Genesys Test1","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/34"},{"accountId":53,"name":"zzz Genesys Test10","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/53"},{"accountId":54,"name":"zzz Genesys Test11","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/54"},{"accountId":55,"name":"zzz Genesys Test12","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/55"},{"accountId":56,"name":"zzz Genesys Test13","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/56"},{"accountId":57,"name":"zzz Genesys Test14","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/57"},{"accountId":61,"name":"zzz Genesys Test15","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/61"},{"accountId":35,"name":"zzz Genesys Test2","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/35"},{"accountId":36,"name":"zzz Genesys Test3","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/36"},{"accountId":37,"name":"zzz Genesys Test4","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/37"},{"accountId":38,"name":"zzz Genesys Test5","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/38"},{"accountId":52,"name":"zzz Genesys Test5f","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/52"},{"accountId":58,"name":"zzz Genesys Test5g","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/58"},{"accountId":59,"name":"zzz Genesys Test5h","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/59"},{"accountId":60,"name":"zzz Genesys Test5i","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/60"},{"accountId":43,"name":"zzz Genesys Test6","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/43"},{"accountId":44,"name":"zzz Genesys Test7","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/44"},{"accountId":48,"name":"zzz Genesys Test8","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/48"},{"accountId":49,"name":"zzz Genesys Test9","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/49"},{"accountId":77,"name":"zzz1CyaraDemo (Genesys)","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/77"},{"accountId":78,"name":"zzz4CyaraDemo (Genesys)","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/78"},{"accountId":79,"name":"zzz5CyaraDemo (Genesys)","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/79"},{"accountId":80,"name":"zzz6CyaraDemo (Genesys)","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/80"},{"accountId":82,"name":"zzz7CyaraDemo (Genesys)","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/82"},{"accountId":62,"name":"zzzgenesys10","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/62"},{"accountId":63,"name":"zzzgenesys11","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/63"},{"accountId":65,"name":"zzzgenesys12","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/65"},{"accountId":66,"name":"zzzgenesys13","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/66"},{"accountId":67,"name":"zzzgenesys14","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/67"}],"totalResults":83,"returnedResults":83,"status":200}
+{
+  message: 'Failed to validate request',
+  messageDetail: [ { field: 'Name', errors: [Array] } ],
+  status: 400
+}
+new accountID: 83
+Start getting all plans
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans?pagesize=1000&pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans?pagesize=1000&pageno=1","nextPage":null,"previousPage":null,"results":[{"channel":"Voice","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/82","planId":82,"accountId":30,"type":"Pulse","name":"Premium App Pulse","startDate":"2019-05-01T17:49:00Z","endDate":"2020-08-02T04:24:00Z"},{"channel":"Voice","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/83","planId":83,"accountId":30,"type":"Velocity","name":"Premium App Velocity","startDate":"2020-07-02T04:25:00Z","endDate":"2020-08-02T04:25:00Z"}],"totalResults":2,"returnedResults":2,"status":200}
+Retrieved plans from master account
+{
+  firstPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans?pagesize=1000&pageno=1',
+  lastPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans?pagesize=1000&pageno=1',
+  nextPage: null,
+  previousPage: null,
+  results: [
+    {
+      channel: 'Voice',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/82',
+      planId: 82,
+      accountId: 30,
+      type: 'Pulse',
+      name: 'Premium App Pulse',
+      startDate: '2019-05-01T17:49:00Z',
+      endDate: '2020-08-02T04:24:00Z'
+    },
+    {
+      channel: 'Voice',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/83',
+      planId: 83,
+      accountId: 30,
+      type: 'Velocity',
+      name: 'Premium App Velocity',
+      startDate: '2020-07-02T04:25:00Z',
+      endDate: '2020-08-02T04:25:00Z'
+    }
+  ],
+  totalResults: 2,
+  returnedResults: 2,
+  status: 200
+}
+{
+  channel: 'Voice',
+  url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/82',
+  planId: 82,
+  accountId: 30,
+  type: 'Pulse',
+  name: 'Premium App Pulse',
+  startDate: '2019-05-01T17:49:00Z',
+  endDate: '2020-08-02T04:24:00Z'
+}
+Retrieving plan from master account
+statusCode:  200
+checkForError: {"subType":"Speech","minimumFrequency":1,"settings":{"premium":false,"inCountryEnabled":true,"maximumAps":20},"channel":"Voice","note":null,"concurrency":5,"notificationEmails":[],"planId":82,"accountId":30,"type":"Pulse","name":"Premium App Pulse","startDate":"2019-05-01T17:49:00Z","endDate":"2020-08-02T04:24:00Z","status":200}
+{
+  subType: 'Speech',
+  minimumFrequency: 1,
+  settings: { premium: false, inCountryEnabled: true, maximumAps: 20 },
+  channel: 'Voice',
+  note: null,
+  concurrency: 5,
+  notificationEmails: [],
+  planId: 82,
+  accountId: 30,
+  type: 'Pulse',
+  name: 'Premium App Pulse',
+  startDate: '2019-05-01T17:49:00Z',
+  endDate: '2020-08-02T04:24:00Z',
+  status: 200
+}
+2020-10-27T01:20:45.128Z
+27
+14
+2028-03-06T01:20:45.128Z
+Creating plan on new account
+{ 'accountId': '83', 'name': 'Premium App Pulse', 'subType': 'Speech', 'note': '07eb24ba-2b64-42d8-a4df-2e419dc97304
+TestingAppId', 'channel': 'Voice', 'type': 'Pulse', 'startDate': '2019-05-01T17:49:00Z', 'endDate': '2028-03-06T01:20:45.128Z', 'concurrency': 5, 'settings': {"premium":false,"inCountryEnabled":true,"maximumAps":20}, 'notificationEmails': [], 'minimumFrequency': 1 }
+statusCode:  400
+Getting existing plan
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/plans?pagesize=1000&pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/plans?pagesize=1000&pageno=1","nextPage":null,"previousPage":null,"results":[{"channel":"Voice","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/plans/196","planId":196,"accountId":83,"type":"Pulse","name":"Premium App Pulse","startDate":"2019-05-01T17:49:00Z","endDate":"2028-03-06T01:15:08.082Z"},{"channel":"Voice","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/plans/197","planId":197,"accountId":83,"type":"Velocity","name":"Premium App Velocity","startDate":"2020-07-02T04:25:00Z","endDate":"2028-03-06T01:15:12.333Z"}],"totalResults":2,"returnedResults":2,"status":200}
+Pre-existing plan found: 196
+{
+  channel: 'Voice',
+  url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/83',
+  planId: 83,
+  accountId: 30,
+  type: 'Velocity',
+  name: 'Premium App Velocity',
+  startDate: '2020-07-02T04:25:00Z',
+  endDate: '2020-08-02T04:25:00Z'
+}
+Retrieving plan from master account
+statusCode:  200
+checkForError: {"subType":"Speech","settings":{"inCountryEnabled":false,"maximumAps":20},"channel":"Voice","note":null,"concurrency":5,"notificationEmails":[],"planId":83,"accountId":30,"type":"Velocity","name":"Premium App Velocity","startDate":"2020-07-02T04:25:00Z","endDate":"2020-08-02T04:25:00Z","status":200}
+{
+  subType: 'Speech',
+  settings: { inCountryEnabled: false, maximumAps: 20 },
+  channel: 'Voice',
+  note: null,
+  concurrency: 5,
+  notificationEmails: [],
+  planId: 83,
+  accountId: 30,
+  type: 'Velocity',
+  name: 'Premium App Velocity',
+  startDate: '2020-07-02T04:25:00Z',
+  endDate: '2020-08-02T04:25:00Z',
+  status: 200
+}
+2020-10-27T01:20:50.343Z
+27
+14
+2028-03-06T01:20:50.343Z
+Creating plan on new account
+{ 'accountId': '83', 'name': 'Premium App Velocity', 'subType': 'Speech', 'note': '07eb24ba-2b64-42d8-a4df-2e419dc97304
+TestingAppId', 'channel': 'Voice', 'type': 'Velocity', 'startDate': '2020-07-02T04:25:00Z', 'endDate': '2028-03-06T01:20:50.343Z', 'concurrency': 5, 'settings': {"inCountryEnabled":false,"maximumAps":20}, 'notificationEmails': [] }
+statusCode:  400
+Getting existing plan
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/plans?pagesize=1000&pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/plans?pagesize=1000&pageno=1","nextPage":null,"previousPage":null,"results":[{"channel":"Voice","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/plans/196","planId":196,"accountId":83,"type":"Pulse","name":"Premium App Pulse","startDate":"2019-05-01T17:49:00Z","endDate":"2028-03-06T01:15:08.082Z"},{"channel":"Voice","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/plans/197","planId":197,"accountId":83,"type":"Velocity","name":"Premium App Velocity","startDate":"2020-07-02T04:25:00Z","endDate":"2028-03-06T01:15:12.333Z"}],"totalResults":2,"returnedResults":2,"status":200}
+Pre-existing plan found: 197
+{
+  firstPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans?pagesize=1000&pageno=1',
+  lastPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans?pagesize=1000&pageno=1',
+  nextPage: null,
+  previousPage: null,
+  results: [
+    {
+      channel: 'Voice',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/82',
+      planId: 82,
+      accountId: 30,
+      type: 'Pulse',
+      name: 'Premium App Pulse',
+      startDate: '2019-05-01T17:49:00Z',
+      endDate: '2020-08-02T04:24:00Z'
+    },
+    {
+      channel: 'Voice',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/83',
+      planId: 83,
+      accountId: 30,
+      type: 'Velocity',
+      name: 'Premium App Velocity',
+      startDate: '2020-07-02T04:25:00Z',
+      endDate: '2020-08-02T04:25:00Z'
+    }
+  ],
+  totalResults: 2,
+  returnedResults: 2,
+  status: 200
+}
+List master campaigns
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/campaigns?channel=Voice&pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/campaigns?channel=Voice&pageno=1","nextPage":null,"previousPage":null,"results":[{"active":false,"campaignId":198,"channel":"Voice","name":"Donor campaign","lastRunDate":null,"requestedRunDate":"2020-07-23T11:46:00Z","planType":"Pulse","scheduledRunDate":"2020-07-23T11:46:00Z","status":"None","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/campaigns/198"}],"totalResults":1,"returnedResults":1,"status":200}
+List shell campaigns
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/campaigns?channel=Voice&pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/campaigns?channel=Voice&pageno=1","nextPage":null,"previousPage":null,"results":[{"active":false,"campaignId":318,"channel":"Voice","name":"Donor campaign","lastRunDate":null,"requestedRunDate":"2020-07-23T11:46:00Z","planType":"Pulse","scheduledRunDate":"2020-07-23T11:46:00Z","status":"None","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/campaigns/318"}],"totalResults":1,"returnedResults":1,"status":200}
+{
+  firstPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/campaigns?channel=Voice&pageno=1',
+  lastPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/campaigns?channel=Voice&pageno=1',
+  nextPage: null,
+  previousPage: null,
+  results: [
+    {
+      active: false,
+      campaignId: 198,
+      channel: 'Voice',
+      name: 'Donor campaign',
+      lastRunDate: null,
+      requestedRunDate: '2020-07-23T11:46:00Z',
+      planType: 'Pulse',
+      scheduledRunDate: '2020-07-23T11:46:00Z',
+      status: 'None',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/campaigns/198'
+    }
+  ],
+  totalResults: 1,
+  returnedResults: 1,
+  status: 200
+}
+listing test cases on master account
+statusCode:  200
+{"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/testcases?pagesize=1000&pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/testcases?pagesize=1000&pageno=1","nextPage":null,"previousPage":null,"results":[{"accountId":30,"testCaseId":52423,"direction":"Inbound","channel":"Voice","name":"Donor Test Case","folderPath":"\\","stepCount":2,"lastModified":"2020-07-23T11:46:11.8170805Z","destination":"55555555555","linkedCampaignCount":1}],"totalResults":1,"returnedResults":1,"status":200}
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/testcases?pagesize=1000&pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/testcases?pagesize=1000&pageno=1","nextPage":null,"previousPage":null,"results":[{"accountId":30,"testCaseId":52423,"direction":"Inbound","channel":"Voice","name":"Donor Test Case","folderPath":"\\","stepCount":2,"lastModified":"2020-07-23T11:46:11.8170805Z","destination":"55555555555","linkedCampaignCount":1}],"totalResults":1,"returnedResults":1,"status":200}
+listing CX Models on master account
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/models?pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/models?pageno=0","nextPage":null,"previousPage":null,"results":[],"totalResults":0,"returnedResults":0,"status":200}
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/models?pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/models?pageno=0","nextPage":null,"previousPage":null,"results":[],"totalResults":0,"returnedResults":0,"status":200}
+Creating user
+statusCode:  200
+checkForError: {"userId":"e6b1263c-6f22-4cf5-90be-84b80f596f5c","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/users/e6b1263c-6f22-4cf5-90be-84b80f596f5c","locked":false,"lockoutEnabled":true,"lockoutEndDate":null,"dateCreated":"2020-10-27T01:21:02.176576Z","lastLoginDate":null,"defaultAccount":0,"username":"godwin9.nadarajan.zzz9cyarademo","firstname":"Godwin9","lastname":"Nadarajan","telephone":"1","mobile":null,"email":"godwin.nadarajan@cyara.com","active":true,"platformNotifications":false,"fullScreen":true,"roles":["Admin","DashboardAdmin","UserAdmin","CCMAdmin"],"loginProviders":["Identity"],"status":200}
+Created user
+{
+  userId: 'e6b1263c-6f22-4cf5-90be-84b80f596f5c',
+  url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/users/e6b1263c-6f22-4cf5-90be-84b80f596f5c',
+  locked: false,
+  lockoutEnabled: true,
+  lockoutEndDate: null,
+  dateCreated: '2020-10-27T01:21:02.176576Z',
+  lastLoginDate: null,
+  defaultAccount: 0,
+  username: 'godwin9.nadarajan.zzz9cyarademo',
+  firstname: 'Godwin9',
+  lastname: 'Nadarajan',
+  telephone: '1',
+  mobile: null,
+  email: 'godwin.nadarajan@cyara.com',
+  active: true,
+  platformNotifications: false,
+  fullScreen: true,
+  roles: [ 'Admin', 'DashboardAdmin', 'UserAdmin', 'CCMAdmin' ],
+  loginProviders: [ 'Identity' ],
+  status: 200
+}
+Attaching user
+statusCode:  200
+checkForError: "Ok"
+Attached user
+Ok
+Listing user's accounts
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/users/e6b1263c-6f22-4cf5-90be-84b80f596f5c/accounts?pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/users/e6b1263c-6f22-4cf5-90be-84b80f596f5c/accounts?pageno=1","nextPage":null,"previousPage":null,"results":[{"accountId":83,"name":"CyaraDemo (Genesys)","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83"}],"totalResults":1,"returnedResults":1,"status":200}
+Got user accounts
+{
+  firstPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/users/e6b1263c-6f22-4cf5-90be-84b80f596f5c/accounts?pageno=1',
+  lastPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/users/e6b1263c-6f22-4cf5-90be-84b80f596f5c/accounts?pageno=1',
+  nextPage: null,
+  previousPage: null,
+  results: [
+    {
+      accountId: 83,
+      name: 'CyaraDemo (Genesys)',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83'
+    }
+  ],
+  totalResults: 1,
+  returnedResults: 1,
+  status: 200
+}
+This user is ready.
+finalResponse:
+[33m{"message":"Account duplicated. It is ready at https://sit.cyaraportal.com/cyarawebportal/83/home","status":200}[0m
+
+
+Error: 
+2020-10-27 12:21:15 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1200,"messageTime":1264,"messageSize":17489,"response":"250 2.0.0 OK  1603761675 x22sm13665198pfp.181 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<b2cf8df8-ae58-23c1-d919-d9c83267e4b0@cyara.com>"}
+2020-10-27 12:21:15 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1205,"messageTime":1648,"messageSize":76752,"response":"250 2.0.0 OK  1603761675 z23sm11610130pgf.12 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<e96e97e2-d7dd-d781-6223-915a162795dd@cyara.com>"}
+2020-10-27 12:25:08 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin10',
+      customerLastName: 'Nadarajan',
+      customerPassword: '36BxWLuK-Rds',
+      customerPhone: '1',
+      customerCompany: 'zzz10CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: 'gavin.sansom',
+  platformAdminPassword: 'EgmQ0tieTQ1aDMUd338X!!',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    '+17812081180,+16504203690,+16503322160,+16504805193,+16505297181,+16504022997,+16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  200
+checkForError: {"key":"d9b45295c35e411685b47b5556162988","token":"xEg09K4g6drNtxxMeC8/kcOgciCunCCDZH3tZt28CqU=","apiKey":"ApiKey d9b45295c35e411685b47b5556162988:xEg09K4g6drNtxxMeC8/kcOgciCunCCDZH3tZt28CqU=","status":200}
+statusCode:  200
+checkForError: {"accountId":30,"url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30","name":"Premium App - Donor","dateActivated":"2020-07-22T14:00:00Z","dateExpires":null,"country":"Australia","timeZone":"Pacific Standard Time","storageBackend":"AmazonS3","notificationEmails":[],"dateCreated":"2020-07-23T11:23:04.1510038Z","active":true,"identityProviderId":null,"settings":{"crawler":{"enabled":false,"useSpeechReplies":false},"email":{"maximumAps":20,"emailAccounts":[]},"sms":{"maximumAps":20,"whitelist":[],"smsNumbers":[]},"web":{"maximumAps":20,"whitelist":[]},"voice":{"recognitionLanguage":{"code":"ar-JO","description":"Arabic, Jordan"},"textToSpeechVoice":{"code":"Arabic, Laila","description":"Arabic-World Wide, Laila"},"recognitionPool":"","transcriptionSpeaker":{"name":"English (USA), en-US, v2","recognitionLanguage":{"code":"en-US","description":"English, United States"}},"mos":false,"outbound":false,"outboundWhitelist":[],"allowBlankCallingNumbers":false,"inboundBlacklist":[],"inboundWhitelist":[],"maximumAps":20,"majorConfidence":60,"minorConfidence":80,"majorMos":3.2,"minorMos":3.6,"preConnectRetryAttempts":null},"runLoadCampaignWithoutApproval":true,"runLoadCampaignWithoutBooking":false,"accountUsageReport":false,"servicesEnabled":false,"reportEmailDomainWhitelist":[]},"status":200}
+{
+  accountId: 30,
+  url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30',
+  name: 'Premium App - Donor',
+  dateActivated: '2020-07-22T14:00:00Z',
+  dateExpires: null,
+  country: 'Australia',
+  timeZone: 'Pacific Standard Time',
+  storageBackend: 'AmazonS3',
+  notificationEmails: [],
+  dateCreated: '2020-07-23T11:23:04.1510038Z',
+  active: true,
+  identityProviderId: null,
+  settings: {
+    crawler: { enabled: false, useSpeechReplies: false },
+    email: { maximumAps: 20, emailAccounts: [] },
+    sms: { maximumAps: 20, whitelist: [], smsNumbers: [] },
+    web: { maximumAps: 20, whitelist: [] },
+    voice: {
+      recognitionLanguage: [Object],
+      textToSpeechVoice: [Object],
+      recognitionPool: '',
+      transcriptionSpeaker: [Object],
+      mos: false,
+      outbound: false,
+      outboundWhitelist: [],
+      allowBlankCallingNumbers: false,
+      inboundBlacklist: [],
+      inboundWhitelist: [],
+      maximumAps: 20,
+      majorConfidence: 60,
+      minorConfidence: 80,
+      majorMos: 3.2,
+      minorMos: 3.6,
+      preConnectRetryAttempts: null
+    },
+    runLoadCampaignWithoutApproval: true,
+    runLoadCampaignWithoutBooking: false,
+    accountUsageReport: false,
+    servicesEnabled: false,
+    reportEmailDomainWhitelist: []
+  },
+  status: 200
+}
+Got Master Account Details
+2020-10-27T01:24:37.816Z
+2020-10-27T01:24:37.816Z
+27
+141
+2095-01-21T01:24:37.816Z
+2095-01-21T01:24:37.816Z
+accountDetails: {"name":"CyaraDemo (Genesys)","dateActivated":"2020-10-27T01:24:37.817Z","dateExpires":"2095-01-21T01:24:37.816Z","country":"Australia","timeZone":"Pacific Standard Time","storageBackend":"AmazonS3","notificationEmails":[],"active":true,"identityProviderId":null,"settings":{"crawler":{"enabled":false,"useSpeechReplies":false},"email":{"maximumAps":20,"emailAccounts":[]},"sms":{"maximumAps":20,"whitelist":[],"smsNumbers":[]},"web":{"maximumAps":20,"whitelist":[]},"voice":{"recognitionLanguage":{"code":"ar-JO","description":"Arabic, Jordan"},"textToSpeechVoice":{"code":"Arabic, Laila","description":"Arabic-World Wide, Laila"},"recognitionPool":"","transcriptionSpeaker":{"name":"English (USA), en-US, v2","recognitionLanguage":{"code":"en-US","description":"English, United States"}},"mos":false,"outbound":false,"outboundWhitelist":[],"allowBlankCallingNumbers":false,"inboundBlacklist":[],"inboundWhitelist":["+17812081180,+16504203690,+16503322160,+16504805193,+16505297181,+16504022997,+16504343993"],"maximumAps":20,"majorConfidence":60,"minorConfidence":80,"majorMos":3.2,"minorMos":3.6,"preConnectRetryAttempts":null},"runLoadCampaignWithoutApproval":true,"runLoadCampaignWithoutBooking":false,"accountUsageReport":false,"servicesEnabled":false,"reportEmailDomainWhitelist":[]},"status":200}
+statusCode:  400
+{"message":"Failed to validate request","messageDetail":[{"field":"Name","errors":[{"code":"DuplicateName","error":"The name is already being used","args":null}]}],"status":400}
+OVERWRITE INITIATED
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/?pagesize=1000&pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/?pagesize=1000&pageno=1","nextPage":null,"previousPage":null,"results":[{"accountId":42,"name":"1k TCS","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/42"},{"accountId":28,"name":"25k TCS","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/28"},{"accountId":14,"name":"aaa_pentester","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/14"},{"accountId":39,"name":"abc","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/39"},{"accountId":72,"name":"Australian","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/72"},{"accountId":13,"name":"avishek.verma","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/13"},{"accountId":12,"name":"COE","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/12"},{"accountId":46,"name":"crawler load test","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/46"},{"accountId":1,"name":"Cyara NOC","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/1"},{"accountId":81,"name":"Cyara Phone Demo Account","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/81"},{"accountId":10,"name":"Cyara Support","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/10"},{"accountId":11,"name":"Cyara_QA","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/11"},{"accountId":83,"name":"CyaraDemo (Genesys)","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83"},{"accountId":18,"name":"Demo1","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/18"},{"accountId":21,"name":"Demo2","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/21"},{"accountId":20,"name":"Demo3","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/20"},{"accountId":19,"name":"Demo4","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/19"},{"accountId":31,"name":"Genesys Test","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/31"},{"accountId":32,"name":"Genesys Test1","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/32"},{"accountId":73,"name":"German","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/73"},{"accountId":74,"name":"German-Swiss","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/74"},{"accountId":7,"name":"Griffin","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/7"},{"accountId":6,"name":"Gruffalo","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/6"},{"accountId":15,"name":"Janis - Demo","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/15"},{"accountId":29,"name":"Janis - Pulse Premium Demo","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/29"},{"accountId":71,"name":"jQueryAccount","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/71"},{"accountId":26,"name":"LDAPs Testing","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/26"},{"accountId":45,"name":"Microsoft","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/45"},{"accountId":17,"name":"no-velocity","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/17"},{"accountId":24,"name":"pagereloadplan","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/24"},{"accountId":25,"name":"pallavi SIT","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/25"},{"accountId":2,"name":"Pegasus","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/2"},{"accountId":5,"name":"Phoenix","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/5"},{"accountId":8,"name":"PM","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/8"},{"accountId":30,"name":"Premium App - Donor","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30"},{"accountId":47,"name":"Product Management","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/47"},{"accountId":9,"name":"Rapid7_HT","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/9"},{"accountId":23,"name":"replaycampaign","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/23"},{"accountId":27,"name":"ReplayToVelocity","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/27"},{"accountId":70,"name":"Rohit MOS Test","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/70"},{"accountId":76,"name":"Rohit POC Altice","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/76"},{"accountId":51,"name":"Rohit POC Deloitte","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/51"},{"accountId":64,"name":"Rohit POC ECB","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/64"},{"accountId":75,"name":"Rohit POC Pepper Money","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/75"},{"accountId":69,"name":"Rohit POV Hilton","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/69"},{"accountId":68,"name":"Rohit Zombie Alliance","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/68"},{"accountId":50,"name":"rohitaccounttest","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/50"},{"accountId":22,"name":"SAML","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/22"},{"accountId":4,"name":"Santa","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/4"},{"accountId":16,"name":"Unicorn","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/16"},{"accountId":3,"name":"Werewolf","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/3"},{"accountId":41,"name":"werewolf.cypress","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/41"},{"accountId":40,"name":"whitelist","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/40"},{"accountId":33,"name":"zzz Genesys Test","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/33"},{"accountId":34,"name":"zzz Genesys Test1","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/34"},{"accountId":53,"name":"zzz Genesys Test10","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/53"},{"accountId":54,"name":"zzz Genesys Test11","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/54"},{"accountId":55,"name":"zzz Genesys Test12","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/55"},{"accountId":56,"name":"zzz Genesys Test13","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/56"},{"accountId":57,"name":"zzz Genesys Test14","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/57"},{"accountId":61,"name":"zzz Genesys Test15","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/61"},{"accountId":35,"name":"zzz Genesys Test2","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/35"},{"accountId":36,"name":"zzz Genesys Test3","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/36"},{"accountId":37,"name":"zzz Genesys Test4","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/37"},{"accountId":38,"name":"zzz Genesys Test5","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/38"},{"accountId":52,"name":"zzz Genesys Test5f","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/52"},{"accountId":58,"name":"zzz Genesys Test5g","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/58"},{"accountId":59,"name":"zzz Genesys Test5h","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/59"},{"accountId":60,"name":"zzz Genesys Test5i","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/60"},{"accountId":43,"name":"zzz Genesys Test6","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/43"},{"accountId":44,"name":"zzz Genesys Test7","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/44"},{"accountId":48,"name":"zzz Genesys Test8","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/48"},{"accountId":49,"name":"zzz Genesys Test9","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/49"},{"accountId":77,"name":"zzz1CyaraDemo (Genesys)","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/77"},{"accountId":78,"name":"zzz4CyaraDemo (Genesys)","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/78"},{"accountId":79,"name":"zzz5CyaraDemo (Genesys)","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/79"},{"accountId":80,"name":"zzz6CyaraDemo (Genesys)","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/80"},{"accountId":82,"name":"zzz7CyaraDemo (Genesys)","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/82"},{"accountId":62,"name":"zzzgenesys10","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/62"},{"accountId":63,"name":"zzzgenesys11","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/63"},{"accountId":65,"name":"zzzgenesys12","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/65"},{"accountId":66,"name":"zzzgenesys13","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/66"},{"accountId":67,"name":"zzzgenesys14","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/67"}],"totalResults":83,"returnedResults":83,"status":200}
+{
+  message: 'Failed to validate request',
+  messageDetail: [ { field: 'Name', errors: [Array] } ],
+  status: 400
+}
+new accountID: 83
+Start getting all plans
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans?pagesize=1000&pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans?pagesize=1000&pageno=1","nextPage":null,"previousPage":null,"results":[{"channel":"Voice","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/82","planId":82,"accountId":30,"type":"Pulse","name":"Premium App Pulse","startDate":"2019-05-01T17:49:00Z","endDate":"2020-08-02T04:24:00Z"},{"channel":"Voice","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/83","planId":83,"accountId":30,"type":"Velocity","name":"Premium App Velocity","startDate":"2020-07-02T04:25:00Z","endDate":"2020-08-02T04:25:00Z"}],"totalResults":2,"returnedResults":2,"status":200}
+Retrieved plans from master account
+{
+  firstPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans?pagesize=1000&pageno=1',
+  lastPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans?pagesize=1000&pageno=1',
+  nextPage: null,
+  previousPage: null,
+  results: [
+    {
+      channel: 'Voice',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/82',
+      planId: 82,
+      accountId: 30,
+      type: 'Pulse',
+      name: 'Premium App Pulse',
+      startDate: '2019-05-01T17:49:00Z',
+      endDate: '2020-08-02T04:24:00Z'
+    },
+    {
+      channel: 'Voice',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/83',
+      planId: 83,
+      accountId: 30,
+      type: 'Velocity',
+      name: 'Premium App Velocity',
+      startDate: '2020-07-02T04:25:00Z',
+      endDate: '2020-08-02T04:25:00Z'
+    }
+  ],
+  totalResults: 2,
+  returnedResults: 2,
+  status: 200
+}
+{
+  channel: 'Voice',
+  url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/82',
+  planId: 82,
+  accountId: 30,
+  type: 'Pulse',
+  name: 'Premium App Pulse',
+  startDate: '2019-05-01T17:49:00Z',
+  endDate: '2020-08-02T04:24:00Z'
+}
+Retrieving plan from master account
+statusCode:  200
+checkForError: {"subType":"Speech","minimumFrequency":1,"settings":{"premium":false,"inCountryEnabled":true,"maximumAps":20},"channel":"Voice","note":null,"concurrency":5,"notificationEmails":[],"planId":82,"accountId":30,"type":"Pulse","name":"Premium App Pulse","startDate":"2019-05-01T17:49:00Z","endDate":"2020-08-02T04:24:00Z","status":200}
+{
+  subType: 'Speech',
+  minimumFrequency: 1,
+  settings: { premium: false, inCountryEnabled: true, maximumAps: 20 },
+  channel: 'Voice',
+  note: null,
+  concurrency: 5,
+  notificationEmails: [],
+  planId: 82,
+  accountId: 30,
+  type: 'Pulse',
+  name: 'Premium App Pulse',
+  startDate: '2019-05-01T17:49:00Z',
+  endDate: '2020-08-02T04:24:00Z',
+  status: 200
+}
+2020-10-27T01:24:43.551Z
+27
+14
+2028-03-06T01:24:43.551Z
+Creating plan on new account
+{ 'accountId': '83', 'name': 'Premium App Pulse', 'subType': 'Speech', 'note': '07eb24ba-2b64-42d8-a4df-2e419dc97304
+TestingAppId', 'channel': 'Voice', 'type': 'Pulse', 'startDate': '2019-05-01T17:49:00Z', 'endDate': '2028-03-06T01:24:43.551Z', 'concurrency': 5, 'settings': {"premium":false,"inCountryEnabled":true,"maximumAps":20}, 'notificationEmails': [], 'minimumFrequency': 1 }
+statusCode:  400
+Getting existing plan
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/plans?pagesize=1000&pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/plans?pagesize=1000&pageno=1","nextPage":null,"previousPage":null,"results":[{"channel":"Voice","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/plans/196","planId":196,"accountId":83,"type":"Pulse","name":"Premium App Pulse","startDate":"2019-05-01T17:49:00Z","endDate":"2028-03-06T01:15:08.082Z"},{"channel":"Voice","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/plans/197","planId":197,"accountId":83,"type":"Velocity","name":"Premium App Velocity","startDate":"2020-07-02T04:25:00Z","endDate":"2028-03-06T01:15:12.333Z"}],"totalResults":2,"returnedResults":2,"status":200}
+Pre-existing plan found: 196
+{
+  channel: 'Voice',
+  url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/83',
+  planId: 83,
+  accountId: 30,
+  type: 'Velocity',
+  name: 'Premium App Velocity',
+  startDate: '2020-07-02T04:25:00Z',
+  endDate: '2020-08-02T04:25:00Z'
+}
+Retrieving plan from master account
+statusCode:  200
+checkForError: {"subType":"Speech","settings":{"inCountryEnabled":false,"maximumAps":20},"channel":"Voice","note":null,"concurrency":5,"notificationEmails":[],"planId":83,"accountId":30,"type":"Velocity","name":"Premium App Velocity","startDate":"2020-07-02T04:25:00Z","endDate":"2020-08-02T04:25:00Z","status":200}
+{
+  subType: 'Speech',
+  settings: { inCountryEnabled: false, maximumAps: 20 },
+  channel: 'Voice',
+  note: null,
+  concurrency: 5,
+  notificationEmails: [],
+  planId: 83,
+  accountId: 30,
+  type: 'Velocity',
+  name: 'Premium App Velocity',
+  startDate: '2020-07-02T04:25:00Z',
+  endDate: '2020-08-02T04:25:00Z',
+  status: 200
+}
+2020-10-27T01:24:48.415Z
+27
+14
+2028-03-06T01:24:48.415Z
+Creating plan on new account
+{ 'accountId': '83', 'name': 'Premium App Velocity', 'subType': 'Speech', 'note': '07eb24ba-2b64-42d8-a4df-2e419dc97304
+TestingAppId', 'channel': 'Voice', 'type': 'Velocity', 'startDate': '2020-07-02T04:25:00Z', 'endDate': '2028-03-06T01:24:48.415Z', 'concurrency': 5, 'settings': {"inCountryEnabled":false,"maximumAps":20}, 'notificationEmails': [] }
+statusCode:  400
+Getting existing plan
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/plans?pagesize=1000&pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/plans?pagesize=1000&pageno=1","nextPage":null,"previousPage":null,"results":[{"channel":"Voice","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/plans/196","planId":196,"accountId":83,"type":"Pulse","name":"Premium App Pulse","startDate":"2019-05-01T17:49:00Z","endDate":"2028-03-06T01:15:08.082Z"},{"channel":"Voice","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/plans/197","planId":197,"accountId":83,"type":"Velocity","name":"Premium App Velocity","startDate":"2020-07-02T04:25:00Z","endDate":"2028-03-06T01:15:12.333Z"}],"totalResults":2,"returnedResults":2,"status":200}
+Pre-existing plan found: 197
+{
+  firstPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans?pagesize=1000&pageno=1',
+  lastPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans?pagesize=1000&pageno=1',
+  nextPage: null,
+  previousPage: null,
+  results: [
+    {
+      channel: 'Voice',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/82',
+      planId: 82,
+      accountId: 30,
+      type: 'Pulse',
+      name: 'Premium App Pulse',
+      startDate: '2019-05-01T17:49:00Z',
+      endDate: '2020-08-02T04:24:00Z'
+    },
+    {
+      channel: 'Voice',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/plans/83',
+      planId: 83,
+      accountId: 30,
+      type: 'Velocity',
+      name: 'Premium App Velocity',
+      startDate: '2020-07-02T04:25:00Z',
+      endDate: '2020-08-02T04:25:00Z'
+    }
+  ],
+  totalResults: 2,
+  returnedResults: 2,
+  status: 200
+}
+List master campaigns
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/campaigns?channel=Voice&pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/campaigns?channel=Voice&pageno=1","nextPage":null,"previousPage":null,"results":[{"active":false,"campaignId":198,"channel":"Voice","name":"Donor campaign","lastRunDate":null,"requestedRunDate":"2020-07-23T11:46:00Z","planType":"Pulse","scheduledRunDate":"2020-07-23T11:46:00Z","status":"None","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/campaigns/198"}],"totalResults":1,"returnedResults":1,"status":200}
+List shell campaigns
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/campaigns?channel=Voice&pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/campaigns?channel=Voice&pageno=1","nextPage":null,"previousPage":null,"results":[{"active":false,"campaignId":318,"channel":"Voice","name":"Donor campaign","lastRunDate":null,"requestedRunDate":"2020-07-23T11:46:00Z","planType":"Pulse","scheduledRunDate":"2020-07-23T11:46:00Z","status":"None","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/campaigns/318"}],"totalResults":1,"returnedResults":1,"status":200}
+{
+  firstPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/campaigns?channel=Voice&pageno=1',
+  lastPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/campaigns?channel=Voice&pageno=1',
+  nextPage: null,
+  previousPage: null,
+  results: [
+    {
+      active: false,
+      campaignId: 198,
+      channel: 'Voice',
+      name: 'Donor campaign',
+      lastRunDate: null,
+      requestedRunDate: '2020-07-23T11:46:00Z',
+      planType: 'Pulse',
+      scheduledRunDate: '2020-07-23T11:46:00Z',
+      status: 'None',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/campaigns/198'
+    }
+  ],
+  totalResults: 1,
+  returnedResults: 1,
+  status: 200
+}
+listing test cases on master account
+statusCode:  200
+{"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/testcases?pagesize=1000&pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/testcases?pagesize=1000&pageno=1","nextPage":null,"previousPage":null,"results":[{"accountId":30,"testCaseId":52423,"direction":"Inbound","channel":"Voice","name":"Donor Test Case","folderPath":"\\","stepCount":2,"lastModified":"2020-07-23T11:46:11.8170805Z","destination":"55555555555","linkedCampaignCount":1}],"totalResults":1,"returnedResults":1,"status":200}
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/testcases?pagesize=1000&pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/testcases?pagesize=1000&pageno=1","nextPage":null,"previousPage":null,"results":[{"accountId":30,"testCaseId":52423,"direction":"Inbound","channel":"Voice","name":"Donor Test Case","folderPath":"\\","stepCount":2,"lastModified":"2020-07-23T11:46:11.8170805Z","destination":"55555555555","linkedCampaignCount":1}],"totalResults":1,"returnedResults":1,"status":200}
+listing CX Models on master account
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/models?pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/30/models?pageno=0","nextPage":null,"previousPage":null,"results":[],"totalResults":0,"returnedResults":0,"status":200}
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/models?pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83/models?pageno=0","nextPage":null,"previousPage":null,"results":[],"totalResults":0,"returnedResults":0,"status":200}
+Creating user
+statusCode:  200
+checkForError: {"userId":"0445dbf7-14c0-4a16-9c35-24059dd76faa","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/users/0445dbf7-14c0-4a16-9c35-24059dd76faa","locked":false,"lockoutEnabled":true,"lockoutEndDate":null,"dateCreated":"2020-10-27T01:25:00.1450482Z","lastLoginDate":null,"defaultAccount":0,"username":"godwin10.nadarajan.zzz10cyarademo","firstname":"Godwin10","lastname":"Nadarajan","telephone":"1","mobile":null,"email":"godwin.nadarajan@cyara.com","active":true,"platformNotifications":false,"fullScreen":true,"roles":["Admin","DashboardAdmin","UserAdmin","CCMAdmin"],"loginProviders":["Identity"],"status":200}
+Created user
+{
+  userId: '0445dbf7-14c0-4a16-9c35-24059dd76faa',
+  url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/users/0445dbf7-14c0-4a16-9c35-24059dd76faa',
+  locked: false,
+  lockoutEnabled: true,
+  lockoutEndDate: null,
+  dateCreated: '2020-10-27T01:25:00.1450482Z',
+  lastLoginDate: null,
+  defaultAccount: 0,
+  username: 'godwin10.nadarajan.zzz10cyarademo',
+  firstname: 'Godwin10',
+  lastname: 'Nadarajan',
+  telephone: '1',
+  mobile: null,
+  email: 'godwin.nadarajan@cyara.com',
+  active: true,
+  platformNotifications: false,
+  fullScreen: true,
+  roles: [ 'Admin', 'DashboardAdmin', 'UserAdmin', 'CCMAdmin' ],
+  loginProviders: [ 'Identity' ],
+  status: 200
+}
+Attaching user
+statusCode:  200
+checkForError: "Ok"
+Attached user
+Ok
+Listing user's accounts
+statusCode:  200
+checkForError: {"firstPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/users/0445dbf7-14c0-4a16-9c35-24059dd76faa/accounts?pageno=1","lastPage":"https://sit.cyaraportal.com/cyarawebapi/v3.0/users/0445dbf7-14c0-4a16-9c35-24059dd76faa/accounts?pageno=1","nextPage":null,"previousPage":null,"results":[{"accountId":83,"name":"CyaraDemo (Genesys)","url":"https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83"}],"totalResults":1,"returnedResults":1,"status":200}
+Got user accounts
+{
+  firstPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/users/0445dbf7-14c0-4a16-9c35-24059dd76faa/accounts?pageno=1',
+  lastPage: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/users/0445dbf7-14c0-4a16-9c35-24059dd76faa/accounts?pageno=1',
+  nextPage: null,
+  previousPage: null,
+  results: [
+    {
+      accountId: 83,
+      name: 'CyaraDemo (Genesys)',
+      url: 'https://sit.cyaraportal.com/cyarawebapi/v3.0/accounts/83'
+    }
+  ],
+  totalResults: 1,
+  returnedResults: 1,
+  status: 200
+}
+This user is ready.
+finalResponse:
+[33m{"message":"Account duplicated. It is ready at https://sit.cyaraportal.com/cyarawebportal/83/home","status":200}[0m
+
+
+Error: 
+2020-10-27 12:25:12 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1049,"messageTime":1354,"messageSize":17486,"response":"250 2.0.0 OK  1603761912 r22sm13389097pfg.51 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<777bc6c4-2e7b-be85-4319-e7724fed1efb@cyara.com>"}
+2020-10-27 12:25:12 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1034,"messageTime":1688,"messageSize":76796,"response":"250 2.0.0 OK  1603761912 e20sm12682148pfi.30 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<b6d439ca-c423-9271-6a6c-cae7f1725249@cyara.com>"}
+2020-10-27 13:09:29 info: Email send success : [object Object]
+2020-10-27 14:08:18 info: Email send success : [object Object]
+2020-10-27 14:19:16 info: Email send success : [object Object]
+2020-10-27 14:41:20 info: Email send success : [object Object]

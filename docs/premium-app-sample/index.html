@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Incoming Conversation</title>
+
+    <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' async type='text/css'>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+        .content { margin-bottom: 60px; }
+        .content p { font-size: 1.2rem; }
+        .welcome-text { font-size: 3rem !important; }
+        .img-responsive { display:block; width:100%; height:auto; margin:0; border:none; }
+        .jumbotron .logo { width: 220px; }
+        .row-flex { display:flex; flex-flow:row wrap; justify-content: center; }
+        .row-flex .flex-item { display:inline-block; text-align: center; padding:15px; }
+        .flex-item .video-link { display:inline-block; width:100%; max-width:640px; margin:0 auto; }
+        .flex-item .video-link img { display:inline-block; width:100%; height:auto; margin:0 auto; }
+        @media all and (max-width:992px) { .row-flex .flex-item { width:100%; } }
+    </style>
+
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="logo"><a href="https://cyara.com/" title="Cyara" target="_blank" rel="noopener noreferrer"><img class="img-responsive" src="../wizard/assets/img/cyara-logo-white.svg" alt="Cyara logo"></a></div>
+            <h1 class="welcome-text">Welcome to the Cyara Accelerator for Genesys Cloud!</h1>
+            <p class="uninstall-button">
+                <button class="btn-info btn btn-primary btn-lg left" onclick="window.location='../wizard/uninstall.html'" title="For development purposes only. Remove this button before demo.">
+                    Uninstall Apps
+                </button>
+
+                This button is for development purposes only.
+            </p>
+        </div>
+    </div>
+    <div class="content">
+
+        <h2>Thanks for subscribing to Cyara.</h2>
+
+        <p>Your request has been submitted. Look for an email from Cyara in the next 1-2 business days with instructions on how to log in to your Cyara account.  </p>
+
+        <p>While you wait, here are some resources to help you get oriented: </p>
+
+        <div class="row-flex">
+
+            <div class="flex-item">
+                <h3>Cyara CX Assurance Platform Overview Video</h3>
+                <a class="video-link" href="https://player.vimeo.com/external/451674206.sd.mp4?s=d63e3bdfb4b82a386fca9b4ebd5109880e4e7450&profile_id=164" target="_blank" rel="noopener noreferrer" title="Cyara CX Assurance Platform Overview Video"><img src="../wizard/assets/img/video-preview-866061949.png" alt=""></a>
+            </div>
+
+            <div class="flex-item">
+                <h3>IVR Application Testing - Use Case Video</h3>
+                <a class="video-link" href="https://player.vimeo.com/external/451674712.sd.mp4?s=e2eb78feadf18db4d65e39ff1b57d2c99d4a1d3b&profile_id=164" target="_blank" rel="noopener noreferrer" title="IVR Application Testing - Use Case Video"><img src="../wizard/assets/img/video-preview-802020866.png" alt=""></a>
+            </div>
+
+        </div>
+
+        <p>Visit <a href="https://cyara.com/" title="Cyara" target="_blank" rel="noopener noreferrer" >Cyara.com</a> for more information on how Cyara can help you accelerate your migration to the Genesys Cloud while assuring quality. </p>
+
+    </div>
+
+</body>
+</html>

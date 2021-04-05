@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Premium App Wizard</title>
+
+    <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' async type='text/css'>
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <script src="https://sdk-cdn.mypurecloud.com/javascript/69.2.1/purecloud-platform-client-v2.min.js"></script>
+    <script src="https://sdk-cdn.mypurecloud.com/client-apps/1.3.0/purecloud-client-app-sdk.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
+<body>
+    <div id="background"></div>
+    <noscript>
+        For full functionality of this site it is necessary to enable JavaScript. Here are the <a href="http://www.enable-javascript.com/" target="_blank">instructions how to enable JavaScript in your web browser</a>.
+    </noscript>
+
+    <!-- <header>
+        <p>Premium App /&nbsp; Home</p>
+    </header> -->
+
+    <div class="content">
+        <div class="logo"><a href="https://cyara.com/" title="Cyara" target="_blank" rel="noopener noreferrer"><img class="img-responsive" src="../wizard/assets/img/cyara-logo-white.svg" alt="Cyara logo"></a></div>
+        <div class="title">
+            <span class="txt-greeting">
+            Hi 
+            </span>
+            <span id="username"></span>!
+            <!-- <div class="txt-greeting-2">
+                welcome to the Cyara Premium App 
+            </div> -->
+            <div class="txt-greeting-1">
+                Welcome to the Cyara Premium App 
+            </div>
+
+            <div class="text-center cta-row">
+                <button id="next" class="btn-info left">
+                    <span >Subscribe</span> <i class="button-icon fas fa-chevron-right"></i></button>
+                </div>
+        </div>
+
+        <!-- <ul class="progress-bar">
+            <li class="active current">
+                <span class="txt-start">Start</span>
+            </li>
+            <li class="">
+                <span class="txt-setup">Custom Setup</span>
+            </li>
+            <li class="">
+                <span class="txt-install">Install</span>
+            </li>
+            <li class="">
+                <span class="txt-summary">Summary</span>
+            </li>
+        </ul> -->
+
+        <main>
+            <div id="available">
+                <p class="success">
+                    <span class="txt-product-available">Product Available </span> <i class="fas fa-check-circle enlarge"></i>
+                </p>
+                <!-- <p class="reminders">
+                    <p class="txt-available-message">Reminders:</p>
+                    <ul class="reminder-list">
+                        <li>Remove the Unistall button in your application</li>
+                        <li>You may redirect to your application by updating the premiumAppURL in the /wizard/config/config.js file</li>
+                    </ul>
+                </p> -->
+
+            </div>
+
+            <div id="unavailable" class="">
+                <p class="fail">
+                    <span class="txt-product-not-available">Product not avaiable.</span>  <i class="fas fa-times-circle enlarge"></i>
+                </p>
+                <p>
+                    <span class="txt-not-available-message">
+                    We're sorry but your PureCloud org does not have the Premium App Sample Product enabled.
+                    Please contact the authorities.
+                    </span>
+                </p>
+            </div>
+            <div style="text-align:left;">
+                <br>
+                <table>
+                    <tr style="padding: 10px 5px 10px 5px;">
+                        <td style="font-size: 1.2em">
+                            You are about to install the Cyara Accelerator for Genesys Cloud.
+                        </td>
+                    </tr>
+                    <tr style="padding: 10px 5px 10px 5px;">
+                        <td style="font-size: 1.2em">
+                            By clicking the "Subscribe" button an account will be created with the following details in the Cyara System:
+                        </td>
+                    </tr>
+                </table><br>
+                    <table>                        
+                        <tr>
+                            <td style="font-size: 1.2em;">Organization Name:</td>
+                            <td style="font-size: 1.2em;"><span id = 'product-available-org' ></span></td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 1.2em;">Email Address:</td>
+                            <td style="font-size: 1.2em;"><span id = 'product-available-email'></span></td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 1.2em;">Dialable numbers:</td>
+                            <td style="font-size: 1.2em;"><span id = 'product-available-did'></span></td>
+                        </tr>
+                    </table>
+                    <!-- <p >Organization Name: <span id = 'product-available-org' ></span></p> 
+                    <p >Email Address: <span id = 'product-available-email'></span></p> 
+                    <p >Dialable numbers:<span id = 'product-available-did'></span></p>  -->
+                    
+            </div>
+            <!-- <div class="text-center cta-row">
+            <button id="next" class="btn-info right">
+                <span class="txt-start">Install</span> <i class="button-icon fas fa-chevron-right"></i></button>
+            </div> -->
+
+            
+        </main>
+    </div>
+    <!-- <footer>
+            <img src="./assets/img/logo.png" alt="Logo">
+    </footer> -->
+
+    <!-- MODAL-->
+    <div id="loading-modal">
+        <div class="overlay"></div>
+        <div class="modal">
+            <img class="logo" src='./assets/img/loading.svg' alt="" srcset="">
+            <div class="modal-message"></div>
+        </div>
+    </div>
+    
+    <script src="./scripts/main.js" type="module"></script>
+</body>
+</html>

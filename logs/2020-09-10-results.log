@@ -1,0 +1,48 @@
+2020-09-10 13:41:03 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin  ',
+      customerLastName: 'Nadarajan',
+      customerPassword: '2mF9ul0Dg-0L',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: 8,
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-09-10 13:41:04 info: Email Failed!
+{"code":"EAUTH","command":"API"}
+2020-09-10 13:41:04 info: Email Failed!
+{"code":"EAUTH","command":"API"}

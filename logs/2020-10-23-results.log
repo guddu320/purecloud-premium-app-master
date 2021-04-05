@@ -1,0 +1,1008 @@
+2020-10-23 13:59:28 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: 'UEJMi00Iz-18',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    ' 17812081180',
+    '16504203690',
+    '16503322160',
+    '16504805193',
+    '16505297181',
+    '16504022997',
+    '16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-23 13:59:30 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: 'UEJMi00Iz-18',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    ' 17812081180',
+    '16504203690',
+    '16503322160',
+    '16504805193',
+    '16505297181',
+    '16504022997',
+    '16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-23 13:59:49 info: Email Failed!
+{"errno":-4039,"code":"ESOCKET","syscall":"connect","address":"2404:6800:4003:c03::6d","port":465,"command":"CONN"}
+2020-10-23 13:59:49 info: Email Failed!
+{"errno":-4039,"code":"ESOCKET","syscall":"connect","address":"2404:6800:4003:c03::6d","port":465,"command":"CONN"}
+2020-10-23 13:59:51 info: Email Failed!
+{"errno":-4039,"code":"ESOCKET","syscall":"connect","address":"2404:6800:4003:c03::6d","port":465,"command":"CONN"}
+2020-10-23 13:59:51 info: Email Failed!
+{"errno":-4039,"code":"ESOCKET","syscall":"connect","address":"2404:6800:4003:c03::6d","port":465,"command":"CONN"}
+2020-10-23 14:00:16 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: 'UEJMi00Iz-18',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    ' 17812081180',
+    '16504203690',
+    '16503322160',
+    '16504805193',
+    '16505297181',
+    '16504022997',
+    '16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-23 14:00:37 info: Email Failed!
+{"errno":-4039,"code":"ESOCKET","syscall":"connect","address":"2404:6800:4003:c03::6d","port":465,"command":"CONN"}
+2020-10-23 14:00:37 info: Email Failed!
+{"errno":-4039,"code":"ESOCKET","syscall":"connect","address":"2404:6800:4003:c03::6d","port":465,"command":"CONN"}
+2020-10-23 14:02:07 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: 'vi5mv4-r2dC9',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    ' 17812081180',
+    '16504203690',
+    '16503322160',
+    '16504805193',
+    '16505297181',
+    '16504022997',
+    '16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-23 14:02:28 info: Email Failed!
+{"errno":-4039,"code":"ESOCKET","syscall":"connect","address":"2404:6800:4003:c03::6d","port":465,"command":"CONN"}
+2020-10-23 14:02:28 info: Email Failed!
+{"errno":-4039,"code":"ESOCKET","syscall":"connect","address":"2404:6800:4003:c03::6d","port":465,"command":"CONN"}
+2020-10-23 14:02:51 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: '09kRf-sBIuAU',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    ' 17812081180',
+    '16504203690',
+    '16503322160',
+    '16504805193',
+    '16505297181',
+    '16504022997',
+    '16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-23 14:03:12 info: Email Failed!
+{"errno":-4039,"code":"ESOCKET","syscall":"connect","address":"2404:6800:4003:c03::6d","port":465,"command":"CONN"}
+2020-10-23 14:03:12 info: Email Failed!
+{"errno":-4039,"code":"ESOCKET","syscall":"connect","address":"2404:6800:4003:c03::6d","port":465,"command":"CONN"}
+2020-10-23 14:04:13 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: '9dyhk-noBnHG',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    ' 17812081180',
+    '16504203690',
+    '16503322160',
+    '16504805193',
+    '16505297181',
+    '16504022997',
+    '16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-23 14:04:34 info: Email Failed!
+{"errno":-4039,"code":"ESOCKET","syscall":"connect","address":"2404:6800:4003:c03::6d","port":465,"command":"CONN"}
+2020-10-23 14:04:34 info: Email Failed!
+{"errno":-4039,"code":"ESOCKET","syscall":"connect","address":"2404:6800:4003:c03::6d","port":465,"command":"CONN"}
+2020-10-23 14:06:02 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: '3JpRr-5QgR5l',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    ' 17812081180',
+    '16504203690',
+    '16503322160',
+    '16504805193',
+    '16505297181',
+    '16504022997',
+    '16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-23 14:06:06 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1377,"messageTime":1273,"messageSize":2090,"response":"250 2.0.0 OK  1603422364 e6sm131626pfn.190 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<ebf8b972-ebd7-8d35-3e57-5ef955d03f3d@cyara.com>"}
+2020-10-23 14:06:06 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1365,"messageTime":1741,"messageSize":2094,"response":"250 2.0.0 OK  1603422365 r144sm160532pfr.2 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<fbf06586-6287-b1ec-ee01-22e6fdb14fb6@cyara.com>"}
+2020-10-23 14:09:02 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: 'CGp-8rxKGq93',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    ' 17812081180',
+    '16504203690',
+    '16503322160',
+    '16504805193',
+    '16505297181',
+    '16504022997',
+    '16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-23 14:09:06 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1022,"messageTime":1358,"messageSize":2090,"response":"250 2.0.0 OK  1603422544 x26sm141417pfn.178 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<7a8195bb-1c95-384a-7b56-4ef6741a0bf8@cyara.com>"}
+2020-10-23 14:09:06 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1102,"messageTime":1675,"messageSize":2094,"response":"250 2.0.0 OK  1603422545 d8sm27836pjr.46 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<c1ec618d-bf6f-699e-b4d6-b46f92956f3b@cyara.com>"}
+2020-10-23 14:13:41 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: 'GWy-blnOlE18',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    ' 17812081180',
+    '16504203690',
+    '16503322160',
+    '16504805193',
+    '16505297181',
+    '16504022997',
+    '16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-23 14:13:44 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1037,"messageTime":1038,"messageSize":2094,"response":"250 2.0.0 OK  1603422823 84sm156528pfx.120 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<b67862ca-c79e-78ec-92b1-a90c3706b887@cyara.com>"}
+2020-10-23 14:13:45 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1062,"messageTime":1376,"messageSize":2090,"response":"250 2.0.0 OK  1603422823 y124sm159644pfy.28 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<db220edd-77da-3830-87f8-2e1643a92c8c@cyara.com>"}
+2020-10-23 14:14:18 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: 'GWy-blnOlE18',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    ' 17812081180',
+    '16504203690',
+    '16503322160',
+    '16504805193',
+    '16505297181',
+    '16504022997',
+    '16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-23 14:14:22 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1201,"messageTime":1035,"messageSize":2090,"response":"250 2.0.0 OK  1603422860 x2sm157056pfc.133 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<0fd36ef8-82f8-9c58-8710-46f8d98d50ae@cyara.com>"}
+2020-10-23 14:14:22 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1200,"messageTime":1374,"messageSize":2094,"response":"250 2.0.0 OK  1603422861 28sm95833pgq.8 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<b7cbcf5d-a4ee-6134-8c86-10f0479eddc3@cyara.com>"}
+2020-10-23 14:15:10 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: '9L5uQ-ND3gRY',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    ' 17812081180',
+    '16504203690',
+    '16503322160',
+    '16504805193',
+    '16505297181',
+    '16504022997',
+    '16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-23 14:15:14 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1120,"messageTime":1269,"messageSize":2094,"response":"250 2.0.0 OK  1603422912 fa5sm48363pjb.35 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<89c28a89-930c-d573-9ecb-8ccac846045f@cyara.com>"}
+2020-10-23 14:15:14 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1112,"messageTime":1389,"messageSize":2090,"response":"250 2.0.0 OK  1603422913 s4sm58710pjp.17 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<a9b841b6-1cf4-058e-11c6-0dcbd8bffbb2@cyara.com>"}
+2020-10-23 14:16:06 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: '2MkB-1th8W7d',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    ' 17812081180',
+    '16504203690',
+    '16503322160',
+    '16504805193',
+    '16505297181',
+    '16504022997',
+    '16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-23 14:16:10 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1120,"messageTime":1275,"messageSize":2094,"response":"250 2.0.0 OK  1603422969 gq19sm70215pjb.2 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<924bb9cc-09b9-b54a-d57f-2c98dce98f25@cyara.com>"}
+2020-10-23 14:16:11 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1121,"messageTime":1626,"messageSize":2090,"response":"250 2.0.0 OK  1603422969 d6sm38934pjr.51 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<10c2bfc1-f37b-1902-7e9e-7ed00fb0d0f7@cyara.com>"}
+2020-10-23 14:16:33 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: 'A-TLIsh2F4U3',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    ' 17812081180',
+    '16504203690',
+    '16503322160',
+    '16504805193',
+    '16505297181',
+    '16504022997',
+    '16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-23 14:16:37 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1198,"messageTime":1280,"messageSize":2094,"response":"250 2.0.0 OK  1603422995 38sm82098pgx.43 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<4edf1566-e31b-68ef-21a0-ffe6ea1400ae@cyara.com>"}
+2020-10-23 14:16:37 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1202,"messageTime":1358,"messageSize":2090,"response":"250 2.0.0 OK  1603422996 b8sm157582pfr.159 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<d11b5719-cd41-d3c5-348a-ef5a7c5ddb7a@cyara.com>"}
+2020-10-23 14:17:16 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: 'uWvhz5bv-N42',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    ' 17812081180',
+    '16504203690',
+    '16503322160',
+    '16504805193',
+    '16505297181',
+    '16504022997',
+    '16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-23 14:17:20 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1118,"messageTime":954,"messageSize":2090,"response":"250 2.0.0 OK  1603423039 r144sm182986pfr.2 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<dc57aee4-76f8-c92c-d692-f986d2afda43@cyara.com>"}
+2020-10-23 14:17:20 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1118,"messageTime":1358,"messageSize":2094,"response":"250 2.0.0 OK  1603423039 kc21sm49849pjb.36 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<c3d4c7df-9069-4c7f-0bbf-b337f3f9b935@cyara.com>"}
+2020-10-23 14:17:26 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: 'N7cb-5Kji4H8',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    ' 17812081180',
+    '16504203690',
+    '16503322160',
+    '16504805193',
+    '16505297181',
+    '16504022997',
+    '16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-23 14:17:30 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1118,"messageTime":1201,"messageSize":2094,"response":"250 2.0.0 OK  1603423049 e5sm167515pfj.99 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<c4ea7048-5447-12a3-b551-98b13edb2cac@cyara.com>"}
+2020-10-23 14:17:30 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1123,"messageTime":1321,"messageSize":2090,"response":"250 2.0.0 OK  1603423049 c10sm146294pfc.196 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<2e297fab-0368-16c9-09f0-6916db106c03@cyara.com>"}
+2020-10-23 14:18:07 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: 'ygpNm-3EEBg6',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    ' 17812081180',
+    '16504203690',
+    '16503322160',
+    '16504805193',
+    '16505297181',
+    '16504022997',
+    '16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-23 14:18:10 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1120,"messageTime":1051,"messageSize":2094,"response":"250 2.0.0 OK  1603423089 38sm84820pgx.43 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<c522f408-85d3-9aca-40c0-a4727655492f@cyara.com>"}
+2020-10-23 14:18:11 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1118,"messageTime":1335,"messageSize":2090,"response":"250 2.0.0 OK  1603423089 z30sm166122pfq.87 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<cd21c4cf-2e81-c5a5-cadd-73cb305c87b9@cyara.com>"}
+2020-10-23 14:19:05 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: 'T-YJODd4Yxk5',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    ' 17812081180',
+    '16504203690',
+    '16503322160',
+    '16504805193',
+    '16505297181',
+    '16504022997',
+    '16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-23 14:19:09 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1121,"messageTime":1278,"messageSize":2094,"response":"250 2.0.0 OK  1603423147 190sm159493pfc.151 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<d7b16163-3751-3edf-c78e-528ac39b89a9@cyara.com>"}
+2020-10-23 14:19:09 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1114,"messageTime":1567,"messageSize":2090,"response":"250 2.0.0 OK  1603423147 u4sm63678pjy.19 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<a9ad9a5d-fa31-c229-848a-9a2eb889571d@cyara.com>"}
+2020-10-23 14:19:28 info: Output: {
+  accountName: 'CyaraDemo (Genesys)',
+  attachIDs: [],
+  createUsers: [
+    {
+      customerFirstName: 'Godwin',
+      customerLastName: 'Nadarajan',
+      customerPassword: '8B3rbISQb-gb',
+      customerPhone: '1',
+      customerCompany: 'CyaraDemo',
+      customerEmail: 'godwin.nadarajan@cyara.com'
+    }
+  ],
+  accountExpires: 'true',
+  planDurationDays: '14',
+  donorAccountID: '30',
+  baseUrl: 'sit.cyaraportal.com',
+  platformAdminUsername: '',
+  platformAdminPassword: '',
+  overwriteAccount: 'true',
+  notificationEmails: [],
+  allowedNumbers: [
+    ' 17812081180',
+    '16504203690',
+    '16503322160',
+    '16504805193',
+    '16505297181',
+    '16504022997',
+    '16504343993'
+  ],
+  genesysIds: [
+    {
+      orgId: '07eb24ba-2b64-42d8-a4df-2e419dc97304',
+      appId: 'TestingAppId'
+    }
+  ]
+}
+Performing overwrite
+statusCode:  401
+checkForError: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401}
+Handled error occurred: Error: {"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}
+{
+  message: 'Username and password required.',
+  errorResult: '{"Args":[],"Code":"RequiredUsernamePassword","SubSystem":0}',
+  status: 401,
+  error: 'Failed to generate platform admin key/token'
+}
+finalResponse:
+[33m{"message":"Username and password required.","errorResult":"{\"Args\":[],\"Code\":\"RequiredUsernamePassword\",\"SubSystem\":0}","status":401,"error":"Failed to generate platform admin key/token"}[0m
+
+
+Error: 
+2020-10-23 14:19:32 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1119,"messageTime":1109,"messageSize":2090,"response":"250 2.0.0 OK  1603423170 9sm165894pfx.138 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<5ceec799-a473-400a-7919-73c8767569ab@cyara.com>"}
+2020-10-23 14:19:32 info: Email success!
+{"accepted":["godwin.nadarajan@cyara.com"],"rejected":[],"envelopeTime":1121,"messageTime":1363,"messageSize":2094,"response":"250 2.0.0 OK  1603423170 198sm192495pfx.26 - gsmtp","envelope":{"from":"godwin.nadarajan@cyara.com","to":["godwin.nadarajan@cyara.com"]},"messageId":"<00c38208-8588-fa78-3b70-199f9cbe3809@cyara.com>"}

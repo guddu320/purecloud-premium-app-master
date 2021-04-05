@@ -1,0 +1,243 @@
+<!Doctype html>
+<html>
+
+<head>
+    <style>
+        .form {
+            background-color: rgb(1, 175, 233);
+            text-align: center;
+        }
+    </style>
+</head>
+<script type=text/javascript>
+window.onload = function(){
+
+    let fname = document.getElementById("id-name").innerHTML;
+    fname = fname.split(" ");
+    let lastname = fname[fname.length-1];
+    fname[fname.length-1] = "";
+    let firstname="";
+    for(i=0;i<fname.length;i++){
+        firstname+=fname[i]+" ";
+    }
+    firstname = firstname.trim();
+
+    //Set name value
+    document.getElementById("customerFirstName").setAttribute("value",firstname);
+    document.getElementById("customerLastName").setAttribute("value", lastname);
+
+    //Set orgId
+    document.getElementById("genesysOrgId").setAttribute("value",document.getElementById("id-orgId").innerHTML);
+
+    //Set appId
+    document.getElementById("genesysAppId").setAttribute("value",document.getElementById("id-appId").innerHTML);
+
+    //Set email
+    document.getElementById("customerEmail").setAttribute("value",document.getElementById("id-email").innerHTML);
+
+    //Set customer company
+    document.getElementById("customerCompany").setAttribute("value",document.getElementById("id-orgName").innerHTML);
+
+    //Set customer random password
+    document.getElementById("customerPassword").setAttribute("value",document.getElementById("id-password").innerHTML);
+
+    //Set customer phone to 1
+    document.getElementById("customerPhone").setAttribute("value","1");
+
+    //Set DiD number field
+    document.getElementById("DiD").setAttribute("value",document.getElementById("id-DiD").innerHTML);
+
+    //Set Account name value
+    document.getElementById("accountName").setAttribute("value",document.getElementById("id-accountName").innerHTML);
+
+    //Set account expires value
+    document.getElementById("accountExpires").checked = true;
+
+    //Set plan duration days value
+    document.getElementById("planDurationDays").setAttribute("value","14");
+
+    //Set donor account ID
+    document.getElementById("donorAccountID").setAttribute("value","30");
+
+    //Set baseUrl
+    document.getElementById("baseUrl").setAttribute("value","sit.cyaraportal.com");
+
+    //Set overwrite account value
+    document.getElementById("overwriteAccount").checked = true;
+
+}
+</script>
+
+<body>
+    <p id="id-name" hidden>iname</p>
+    <p id="id-orgName" hidden>iorgName</p>
+    <p id="id-orgId" hidden>iorgId</p>
+    <p id="id-appId" hidden>iappId</p>
+    <p id="id-email" hidden>iemail</p>
+    <p id="id-location" hidden>ilocation</p>
+    <p id="id-DiD" hidden>iDiD</p>
+    <p id="id-password" hidden>ipassword</p>
+    <p id="id-accountName" hidden>iaccountName</p>
+
+    <div id="success" hidden>
+        <h1>Data successfully posted! An email will be sent to you shortly with the results of the duplication operation. Thank you!</h1>
+    </div>
+
+    <div id="failure" hidden>
+        <h1>The form failed to post the data. Please check your connection.</h1>
+    </div>
+
+    <div id="form" class="form">
+        <h1>Account Creation Form</h1>
+        <p>
+            <label>Customer First Name:</label>
+            <input type="text" id="customerFirstName"><br><br>
+            <label>Customer Last Name:</label>
+            <input type="text" id="customerLastName"><br><br>
+            <label>Customer password:</label>
+            <input type="text" id="customerPassword"><br><br>
+            <label>Customer phone:</label>
+            <input type="text" id="customerPhone"><br><br>
+            <label>Customer Company:</label>
+            <input type="text" id="customerCompany"><br><br>
+            <label>Customer Email:</label>
+            <input type="text" id="customerEmail"><br><br>
+            <label>Account Name:</label>
+            <input type="text" id="accountName"><br><br>
+            <label>Attach Ids:</label>
+            <input type="text" id="attachIds"><br><br>
+
+
+            <label for="Expires"> Account expires</label>
+            <input type="checkbox" id="accountExpires" name="Expires"><br><br>
+
+
+            <label>Plan Duration Days:</label>
+            <input type="text" id="planDurationDays"><br><br>
+            <label>Donor Account Id:</label>
+            <input type="text" id="donorAccountID"><br><br>
+            <label>Base URL:</label>
+            <input type="text" id="baseUrl"><br><br>
+            <label>Platform Admin Username:</label>
+            <input type="text" id="platformAdminUsername"><br><br>
+            <label>Platform Admin Password:</label>
+            <input type="password" id="platformAdminPassword"><br><br>
+
+            <label for="Overwrite"> Overwrite Account:</label>
+            <input type="checkbox" id="overwriteAccount" name="Overwrite"><br><br>
+
+            <label>Notification email:</label>
+            <input type="text" id="notificationEmail1"><br><br>
+            <label>Notification email:</label>
+            <input type="text" id="notificationEmail2"><br><br>
+            <label>Allowed numbers:</label>
+            <input type="text" id="allowedNumbers"><br><br>
+            <label>Genesys Org Id:</label>
+            <input type="text" id="genesysOrgId" style="width: 300px;"><br><br>
+            <label>Genesys App Id:</label>
+            <input type="text" id="genesysAppId"><br><br>
+            <label>Genesys DiDs:</label>
+            <input type="text" id="DiD" style="width: 700px;"><br><br>
+
+            <button onclick="createAccount()" id="submit">Create account</button>
+            <!-- </form> -->
+
+
+            <script type=text/javascript>
+
+function createAccount(){
+
+let accountName = document.getElementById("accountName").value;
+let attachIDs = [];
+
+let createUsers = [
+	{
+	   "customerFirstName":document.getElementById("customerFirstName").value,
+	   "customerLastName":document.getElementById("customerLastName").value,
+	   "customerPassword":document.getElementById("customerPassword").value,
+	   "customerPhone":document.getElementById("customerPhone").value,
+	   "customerCompany":document.getElementById("customerCompany").value,
+	   "customerEmail":document.getElementById("customerEmail").value
+	}
+ ];
+
+ let accountExpires = "";
+ if(document.getElementById("accountExpires").checked==true){
+    accountExpires = "true";
+ }
+ else {accountExpires = "false";}
+
+ let planDurationDays = document.getElementById("planDurationDays").value;
+ let donorAccountID = document.getElementById("donorAccountID").value;
+ let baseUrl = document.getElementById("baseUrl").value;
+ let platformAdminUsername = document.getElementById("platformAdminUsername").value;
+ let platformAdminPassword = document.getElementById("platformAdminPassword").value;
+
+ let overwriteAccount = "";
+ if(document.getElementById("overwriteAccount").checked==true){
+     overwriteAccount = "true";
+ }
+ else{overwriteAccount = "false"}
+
+
+ let notificationEmail = [document.getElementById("notificationEmail1").value,document.getElementById("notificationEmail2").value];
+ let notificationEmails = [];
+ for(i=0;i<notificationEmail.length;i++){
+     if(notificationEmail[i]!=""){
+        notificationEmails.push(notificationEmail[i]);
+     }
+ }
+ 
+
+ let allowedNumbers = document.getElementById("DiD").value.split(", ");
+ let genesysIds = [
+	{
+		"orgId":document.getElementById("genesysOrgId").value,
+        "appId":document.getElementById("genesysAppId").value
+	}
+];
+
+let postData = {
+    "accountName":accountName,
+    "attachIDs":attachIDs,
+    "createUsers":createUsers,
+    "accountExpires":accountExpires,
+    "planDurationDays":planDurationDays,
+    "donorAccountID":donorAccountID,
+    "baseUrl":baseUrl,
+    "platformAdminUsername":platformAdminUsername,
+    "platformAdminPassword":platformAdminPassword,
+    "overwriteAccount":overwriteAccount,
+    "notificationEmails":notificationEmails,
+    "allowedNumbers":allowedNumbers,
+    "genesysIds":genesysIds
+}
+
+
+                const options = {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(postData)
+                };
+                
+
+                fetch('/duplicate', options)
+                .then((data) => {
+                    document.getElementById("form").style.display = "none";
+                    document.getElementById("success").style.display = "block";  
+                    console.log(data);
+                    console.log("Posted");                  
+                })
+                .catch((err) => {
+                    document.getElementById("form").style.display = "none";
+                    document.getElementById("failure").style.display = "block";  
+                    console.log(err)});
+                
+}
+        </script>
+    </div>
+</body>
+
+</html>
